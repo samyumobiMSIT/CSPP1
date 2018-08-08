@@ -8,15 +8,16 @@ def apply_to_each(L, f):
             L[i] = f(L[i])
 
 def square(a):
-    return n**2
+    return a**2
 
 def main():
     data = input()
     data = data.split()
     list1 = []
-    for j in l:
+    for j in data:
         list1.append(int(j))
     apply_to_each(list1, square)
+    print(list1)
 
 if __name__== "__main__":
 	main()
