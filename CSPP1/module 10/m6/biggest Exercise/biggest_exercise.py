@@ -20,16 +20,16 @@ def biggest(aDict):
     return str(c)
 
 def main():
-    aDict={}
-    s=input()
-    l=s.split()
-    if l[0][0] not in aDict:
-        aDict[l[0][0]]=[l[1]]
-    else:
-        aDict[l[0][0]].append(l[1])
-        
+    n = input()
+    aDict = {}
+    for i in range(int(n)):
+        s = input()
+        l = s.split()
+        if l[0][0] not in aDict:
+            aDict[l[0][0]] = [l[1]]
+        else:
+            aDict[l[0][0]].append(l[1])
     print(biggest(aDict))
-
 
 if __name__== "__main__":
     main()
