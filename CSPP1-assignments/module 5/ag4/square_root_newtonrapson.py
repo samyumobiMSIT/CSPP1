@@ -11,7 +11,7 @@ using approximation method '''
 
 def main():
 	'''main function'''
-	k = input()
+	k = int(input())
 	# epsilon and step are initialized
 	# don't change these values
 	epsilon = 0.01
@@ -22,6 +22,7 @@ def main():
 	guess = k / 2.0
 	while abs(guess * guess - k) >= epsilon:
 		guess = guess - (((guess ** 2) - k) / (2 * guess))
+
 	print(guess)
 
 if __name__== "__main__":
