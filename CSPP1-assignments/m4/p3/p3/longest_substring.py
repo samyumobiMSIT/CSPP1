@@ -1,4 +1,4 @@
-'''Assume s is a string of lower case characters.
+'''
 program that prints the longest substring of s in which the letters occur in alphabetical order.
 '''
 #longest string in alphabetical order
@@ -23,3 +23,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
