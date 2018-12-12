@@ -21,4 +21,4 @@ def main():
     print(count_vowels)
 
 if __name__ == "__main__":
-   main()
+    main()
