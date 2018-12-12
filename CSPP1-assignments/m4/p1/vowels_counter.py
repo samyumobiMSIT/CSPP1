@@ -5,14 +5,16 @@
 #Number of vowels: 5
 
 def main():
-	s = input()
-	# the input string is in s
-	# remove pass and start your code here
-	count = 0
-	for letter in s:
-		if letter in 'aeiou':
-			count +=1
-	print(str(count))
+    '''this is main funtion'''
+    input_string = input()
+    # the input string is in s
+    # remove pass and start your code here
+    count_vowels = 0
+    for letter_string in input_string:
+        if letter_string in 'aeiou':
+            count_vowels += 1
+
+    print(count_vowels)
 	
 
 if __name__== "__main__":
