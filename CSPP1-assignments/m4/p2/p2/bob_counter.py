@@ -10,7 +10,7 @@ def main():
     for i in range(len(s)):
         if s[i:].startswith('bob'):
             countBob += 1
-    print("Number of times bob occurs is: " + str(countBob))
+    print(str(countBob))
 
 if __name__ == "__main__":
     main()
