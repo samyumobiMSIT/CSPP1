@@ -1,4 +1,5 @@
-#Assume s is a string of lower case characters.
+''
+''
 
 #program to count the number of vowels in given string.
 
@@ -15,7 +16,6 @@ def main():
             count_vowels += 1
 
     print(count_vowels)
-	
 
-if __name__== "__main__":
+if __name__ == "__main__":
 	main()
