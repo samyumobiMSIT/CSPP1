@@ -10,22 +10,23 @@
 # Output: 21950 is not a perfect cube
 
 def main():
-	# input is captured in x
+    '''main function'''
+    # input is captured in ssquare_num
+    square_num = int(input())
+    # watch out for the data type of value stored in s
+    # your code starts here
+    sq_flag = 0
+    for guess_num in range(square_num):
+        if guess_num*guess_num*guess_num == square_num:
+            sq_flag = 1
+            break
+    if sq_flag == 1:
+        print(str(square_num)+" is a perfect cube")
+    else:
+        print(str(square_num)+" is not a perfect cube")
 
-	# watch out for the data type of value stored in x
-	# your code starts here
-	x = int(input())
-	ans = 0
-	while ans ** 3 < abs(x):
-		ans = ans + 1
-	if ans ** 3 != abs(x):
-		print(x, 'is not a perfect cube')
-
-	else:
-		if x < 0:
-			ans = -ans
-		print('Cube root of', x, 'is', ans)
 
 
-if __name__== "__main__":
-	main()
+if __name__ == "__main__":
+    main()
+
