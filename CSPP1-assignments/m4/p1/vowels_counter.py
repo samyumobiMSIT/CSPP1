@@ -1,5 +1,8 @@
-''
-''
+'''
+Author: Sam
+Date: 12-Dec-18
+Encoding: UTF-8
+'''
 
 #program to count the number of vowels in given string.
 
@@ -18,4 +21,4 @@ def main():
     print(count_vowels)
 
 if __name__ == "__main__":
-	main()
+   main()
