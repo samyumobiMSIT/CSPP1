@@ -1,7 +1,6 @@
-# Functions | Assignment-1 - Paying Debt off in a Year
+'''Functions | Assignment-1 - Paying Debt off in a Year
 
-# Write a program to calculate the credit card balance after one year if a person only pays the minimum monthly payment required by the
-# credit card company each month.
+program to calculate the credit card balance after one year'''
 
 # The following variables contain values as described below:
 # balance - the outstanding balance on the credit card
@@ -24,40 +23,26 @@
 # Monthly unpaid balance = (Previous balance) - (Minimum monthly payment)
 # Updated balance each month = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)
 
-def payingDebtOffInAYear(balance, annualInterestRate, monthlyPaymentRate):
-    totalPaid = 0.0
-    monthlyInterestRate = (annualInterestRate / 12.0)
-    count = 1
-    while count <= 12:
-        # Calculate the minimum monthly payment
-        minMonthlyPayment = monthlyPaymentRate * balance
 
-        # Update the balance to reflect payment
-        balance -= minMonthlyPayment
+def paying_debt_off_inayear(balance_unpaid, annual_interest_rate, monthly_payment_rate):
+    '''to calculate remaining balance'''
+    balance_copy = balance_unpaid
 
-        # Add monthly interest to balance
-        balance += (monthlyInterestRate * balance)
-
-        # Update the total amount paid
-        totalPaid += minMonthlyPayment
-
-        print("Month " + str(count))
-        print("Minimum monthly payment: " + str(round(minMonthlyPayment, 2)))
-        print("Remaining balance: " + str(round(balance, 2)))
-        count += 1
-        print("Remaining balance: " + str(round(balance, 2)))
-
-
-# print("Total paid: " + str(round(totalPaid, 2)))
-
-
-
+    iterator_i = 1
+    while iterator_i <= 12:
+        montly_interest_rate = annual_interest_rate / 12.0
+        minimum_monthly_payment = monthly_payment_rate*balance_copy
+        monthly_unpaid_balance = balance_copy - minimum_monthly_payment
+        balance_copy = monthly_unpaid_balance + (montly_interest_rate * monthly_unpaid_balance)
+        iterator_i += 1
+    return "Remaining balance: "+str(round(balance_copy, 2))
 def main():
+    '''main function'''
     data = input()
     data = data.split(' ')
     data = list(map(float, data))
-    print(payingDebtOffInAYear(data[0], data[1], data[2]))
-
+    print(paying_debt_off_inayear(data[0], data[1], data[2]))
 
 if __name__ == "__main__":
     main()
+
