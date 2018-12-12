@@ -1,5 +1,5 @@
-# Write a python program to find the square root of the given number
-# using approsimation method
+'''Write a python program to find the square root of the given number
+ using approsimation method '''
 
 # testcase 1
 # input: 25
@@ -30,4 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
