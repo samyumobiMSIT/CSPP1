@@ -22,8 +22,7 @@ def main():
 	guess = k / 2.0
 	while abs(guess * guess - k) >= epsilon:
 		guess = guess - (((guess ** 2) - k) / (2 * guess))
-	print
-	'Square root of', k, 'is about', guess
+	print(guess)
 
 if __name__== "__main__":
 	main()
