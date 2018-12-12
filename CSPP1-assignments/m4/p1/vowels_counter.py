@@ -12,7 +12,7 @@ def main():
 	for letter in s:
 		if letter in 'aeiou':
 			count +=1
-	print('number of vowels: ' + str(count))
+	print(str(count))
 	
 
 if __name__== "__main__":
