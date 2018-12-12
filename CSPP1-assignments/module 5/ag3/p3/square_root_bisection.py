@@ -10,27 +10,24 @@
 # output: 6.999999999999991
 
 def main():
-	s = 25
-	# epsilon and step are initialized
-	# don't change these values
-	epsilon = 0.01
-	step = 0.1
-	# your code starts here
-	numGuesses = 0
-	low = 0.0
-	high = max(1.0, s)
-	ans = (high + low) / 2.0
-	while abs(ans ** 2 - s) >= epsilon:
-		numGuesses += 1
-		if ans ** 2 < s:
-			low = ans
-		else:
-			high = ans
-		ans = (high + low) / 2.0
-	print('numGuesses =', numGuesses)
-	print(ans, 'is close to square root of', s)
+    '''main function'''
+    square_num = int(input())
+    # epsilon and step are initialized
+    # don't change these values
+    approximation_val = 0.01
+    # your code starts here
+    high_val = square_num
+    low_val = 0
+    middle_val = (low_val + high_val) / 2
 
+    while abs((middle_val ** 2) - square_num) >= approximation_val:
+        if square_num > middle_val ** 2:
+            low_val = middle_val
+        else:
+            high_val = middle_val
+        middle_val = (low_val + high_val) / 2
+    print(middle_val)
 
-if __name__== "__main__":
-	main()
+if __name__ == "__main__":
+    main()
 
