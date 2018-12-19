@@ -4,19 +4,27 @@
 # This function takes in two numbers and returns one number.
 
 
-def iterPower(x,p):
-    result = 1
-    for turn in range(p):
-        print ('iteration: ' + str(turn) + ' current result: ' + str(result))
-        result = result * x
-    return result
+def iterPower(base, exp):
+    '''
+    base: int or float.
+    exp: int >= 0
+ 
+    returns: int or float, base^exp
+    '''
+    # Your code here
+    power = 1
+    while(exp > 0):
+        power = power * base
+        exp -= 1
+    return power	
+    
 
 
 def main():
 
     data = input()
     data = data.split()
-    print(iterPower(int(data[0]),int(data[1])))
+    print(iterPower(float(data[0]),int(data[1]))) 
 
 if __name__== "__main__":
     main()
