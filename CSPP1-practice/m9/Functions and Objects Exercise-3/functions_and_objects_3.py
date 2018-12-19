@@ -4,12 +4,13 @@
 
 def apply_to_each(L, f):
     for i in range(len(L)):
-            L[i] = L[i] + 1
-            L[i] = f(L[i])
+        L[i] = f(L[i])
+    print(L)
+def square(n):
+    return n**2
 
-def square(a):
-    return a**2
-
+    
+    
 def main():
     data = input()
     data = data.split()
@@ -17,7 +18,6 @@ def main():
     for j in data:
         list1.append(int(j))
     apply_to_each(list1, square)
-    print(list1)
 
 if __name__== "__main__":
-	main()
+    main()

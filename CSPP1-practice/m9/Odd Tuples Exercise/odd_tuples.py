@@ -10,12 +10,6 @@ def oddTuples(aTup):
     returns: tuple, every other element of aTup. 
     '''
     # Your Code Here
-
-    b_tup=()
-    for(i,j) in enumerate(aTup):
-        if(i%2 == 0):
-            b_tup=b_tup + (j,)
-        return b_tup
     
 
 def main():
