@@ -1,5 +1,7 @@
 #sum of integers from 1 to end
 
+
+
 END = int(input())
 
 SUM = 0
