@@ -40,7 +40,7 @@ def load_words(file_name):
 
 WORDLIST_FILENAME = 'words.txt'
 
-class Message(object):
+class Message():
     ''' Grader's Implementation of Message Object '''
 
     ### DO NOT MODIFY THIS METHOD ###
@@ -137,14 +137,16 @@ class Message(object):
 def main():
     ''' Function to handle testcases '''
     inp = input()
-    data = PlaintextMessage(inp, int(input()))
-    print(data.get_shift())
-    print(data.get_encrypting_dict())
-    print(data.get_message_text_encrypted())
-    data.change_shift(int(input()))
-    print(data.get_shift())
-    print(data.get_encrypting_dict())
-    print(data.get_message_text_encrypted())
+    data = Message(inp)
+    shift = int(input())
+    print(shift)
+    print(data.build_shift_dict(shift))
+    print(data.apply_shift(shift))
+    #print(data)
+    shift = int(input())
+    print(shift)
+    print(data.build_shift_dict(shift))
+    print(data.apply_shift(shift))
 
 if __name__ == "__main__":
     main()
