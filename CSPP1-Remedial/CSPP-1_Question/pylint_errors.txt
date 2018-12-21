@@ -1,16 +1,9 @@
 ************* Module solution
-solution.py:111:0: C0304: Final newline missing (missing-final-newline)
-solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-solution.py:10:0: C0111: Missing function docstring (missing-docstring)
-solution.py:17:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-solution.py:18:12: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-solution.py:19:12: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
-solution.py:28:8: R1705: Unnecessary "elif" after "return" (no-else-return)
-solution.py:33:12: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-solution.py:34:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-solution.py:37:16: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+solution.py:94:6: W0511: TODO: Generalize input (fixme)
+solution.py:117:0: C0304: Final newline missing (missing-final-newline)
+solution.py:6:0: E0401: Unable to import 'numpy' (import-error)
+solution.py:32:10: R1716: Simplify chained comparison between the operands (chained-comparison)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.56/10 (previous run: 5.47/10, +2.09)
+Your code has been rated at 8.81/10 (previous run: 7.56/10, +1.25)
 
