@@ -6,9 +6,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -27,9 +27,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -48,9 +48,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -63,9 +63,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -78,9 +78,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -99,9 +99,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -120,9 +120,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -141,9 +141,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -162,9 +162,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -183,9 +183,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -204,9 +204,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -225,9 +225,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -246,9 +246,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -267,9 +267,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -297,9 +297,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -341,9 +341,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -354,9 +354,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -367,9 +367,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -380,9 +380,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -456,9 +456,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -469,9 +469,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -532,9 +532,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -602,9 +602,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -638,9 +638,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -687,8 +687,8 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 92, in <module>
     main()
-  File "solution.py", line 85, in main
-    row = input().split(' ')
-EOFError: EOF when reading a line
+  File "solution.py", line 86, in main
+    sudoku.append(row)
+NameError: name 'row' is not defined
 ----------------------------------------
 
