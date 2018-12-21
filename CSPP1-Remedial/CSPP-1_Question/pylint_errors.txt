@@ -1,76 +1,21 @@
-************* Module test
-test.py:15:46: C0326: Exactly one space required after comma
-square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
-                                              ^ (bad-whitespace)
-test.py:15:52: C0326: Exactly one space required after comma
-square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
-                                                    ^ (bad-whitespace)
-test.py:15:76: C0326: Exactly one space required after comma
-square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
-                                                                            ^ (bad-whitespace)
-test.py:15:82: C0326: Exactly one space required after comma
-square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
-                                                                                  ^ (bad-whitespace)
-test.py:20:33: C0326: Exactly one space required after comma
-peers = dict((s, set(sum(units[s],[]))-set([s])) for s in boxes)
-                                 ^ (bad-whitespace)
-test.py:41:52: C0303: Trailing whitespace (trailing-whitespace)
-test.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:57:36: C0303: Trailing whitespace (trailing-whitespace)
-test.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:71:0: C0301: Line too long (114/100) (line-too-long)
-test.py:99:0: C0301: Line too long (126/100) (line-too-long)
-test.py:107:53: C0326: Exactly one space required after comma
-            values[peer] = values[peer].replace(digit,'')
-                                                     ^ (bad-whitespace)
-test.py:112:0: C0301: Line too long (128/100) (line-too-long)
-test.py:125:0: C0301: Line too long (115/100) (line-too-long)
-test.py:146:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:153:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:159:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:162:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:181:0: C0301: Line too long (104/100) (line-too-long)
-test.py:188:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:211:0: C0304: Final newline missing (missing-final-newline)
-test.py:211:0: C0301: Line too long (113/100) (line-too-long)
-test.py:1:0: C0111: Missing module docstring (missing-docstring)
-test.py:2:0: C0103: Constant name "assignments" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:4:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:5:0: C0103: Constant name "cols" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:7:0: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
-test.py:7:0: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
-test.py:11:0: C0103: Constant name "boxes" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:13:0: C0103: Constant name "row_units" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:14:0: C0103: Constant name "column_units" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:15:0: C0103: Constant name "square_units" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:16:0: C0103: Constant name "diagonal_units" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:18:0: C0103: Constant name "unitlist" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:19:0: C0103: Constant name "units" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:20:0: C0103: Constant name "peers" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:43:8: C0103: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
-test.py:47:8: C0103: Variable name "nt" doesn't conform to snake_case naming style (invalid-name)
-test.py:56:16: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
-test.py:56:19: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
-test.py:75:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-test.py:83:12: W0613: Unused argument 'values' (unused-argument)
-test.py:140:11: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-test.py:140:48: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-test.py:131:4: W0612: Unused variable 'solved_values' (unused-variable)
-test.py:151:7: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
-test.py:144:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
-test.py:164:4: W0612: Unused variable 'min_choice' (unused-variable)
-test.py:189:4: R1705: Unnecessary "else" after "return" (no-else-return)
-test.py:191:8: W0101: Unreachable code (unreachable)
-test.py:199:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:202:22: E0602: Undefined variable 'values' (undefined-variable)
-test.py:210:4: W0702: No exception type(s) specified (bare-except)
-test.py:205:8: E0401: Unable to import 'visualize' (import-error)
+************* Module solution
+solution.py:37:0: C0305: Trailing newlines (trailing-newlines)
+solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+solution.py:2:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
+solution.py:4:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+solution.py:4:0: C0111: Missing function docstring (missing-docstring)
+solution.py:6:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
+solution.py:13:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+solution.py:13:0: C0111: Missing function docstring (missing-docstring)
+solution.py:14:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
+solution.py:15:12: W0621: Redefining name 'j' from outer scope (line 32) (redefined-outer-name)
+solution.py:17:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+solution.py:19:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+solution.py:21:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+solution.py:28:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:29:4: C0103: Constant name "inp_ut" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.80/10 (previous run: 4.21/10, -0.41)
+Your code has been rated at 5.15/10 (previous run: 9.80/10, -4.65)
 
