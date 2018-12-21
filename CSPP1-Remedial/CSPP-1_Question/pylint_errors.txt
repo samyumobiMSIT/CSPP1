@@ -1,50 +1,18 @@
 ************* Module solution
-solution.py:3:14: C0326: Exactly one space required after comma
-def same_row(i,j): return (i/9 == j/9)
-              ^ (bad-whitespace)
-solution.py:3:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
-solution.py:4:14: C0326: Exactly one space required after comma
-def same_col(i,j): return (i-j) % 9 == 0
-              ^ (bad-whitespace)
-solution.py:5:16: C0326: Exactly one space required after comma
-def same_block(i,j): return (i/27 == j/27 and i%9/3 == j%9/3)
-                ^ (bad-whitespace)
-solution.py:5:0: C0325: Unnecessary parens after 'return' keyword (superfluous-parens)
-solution.py:8:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:9:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:10:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution.py:12:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:13:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:14:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution.py:14:17: C0326: Exactly one space required after comma
-    if same_row(i,j) or same_col(i,j) or same_block(i,j):
-                 ^ (bad-whitespace)
-solution.py:14:34: C0326: Exactly one space required after comma
-    if same_row(i,j) or same_col(i,j) or same_block(i,j):
-                                  ^ (bad-whitespace)
-solution.py:14:53: C0326: Exactly one space required after comma
-    if same_row(i,j) or same_col(i,j) or same_block(i,j):
-                                                     ^ (bad-whitespace)
-solution.py:15:0: W0311: Bad indentation. Found 6 spaces, expected 12 (bad-indentation)
-solution.py:17:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:18:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution.py:19:0: W0311: Bad indentation. Found 6 spaces, expected 12 (bad-indentation)
-solution.py:22:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:23:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution.py:24:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
-solution.py:25:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+solution.py:7:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:11:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:15:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:19:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:23:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:27:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:31:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:35:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:39:0: C0301: Line too long (116/100) (line-too-long)
+solution.py:64:0: C0304: Final newline missing (missing-final-newline)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-solution.py:3:0: C0111: Missing function docstring (missing-docstring)
-solution.py:3:19: C0321: More than one statement on a single line (multiple-statements)
-solution.py:4:0: C0111: Missing function docstring (missing-docstring)
-solution.py:4:19: C0321: More than one statement on a single line (multiple-statements)
-solution.py:5:0: C0111: Missing function docstring (missing-docstring)
-solution.py:5:21: C0321: More than one statement on a single line (multiple-statements)
-solution.py:7:0: C0103: Function name "r" doesn't conform to snake_case naming style (invalid-name)
-solution.py:7:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
-solution.py:7:0: C0111: Missing function docstring (missing-docstring)
-solution.py:17:6: C0103: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+solution.py:1:0: R0911: Too many return statements (10/6) (too-many-return-statements)
+solution.py:55:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.00/10 (previous run: 8.81/10, -13.81)
+Your code has been rated at 5.36/10 (previous run: -5.00/10, +10.36)
 

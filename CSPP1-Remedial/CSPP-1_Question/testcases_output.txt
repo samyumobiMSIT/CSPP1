@@ -3,7 +3,12 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,7 +24,12 @@ Expected Output:
 7
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -35,7 +45,12 @@ Expected Output:
 9
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -45,7 +60,12 @@ Expected Output:
 2
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,7 +75,12 @@ Expected Output:
 9
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -71,7 +96,12 @@ Expected Output:
 15
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -87,7 +117,12 @@ Expected Output:
 3
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -103,7 +138,12 @@ Expected Output:
 9
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -119,7 +159,12 @@ Expected Output:
 6
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -135,7 +180,12 @@ Expected Output:
 469
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -151,7 +201,12 @@ Expected Output:
 8
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -167,7 +222,12 @@ Expected Output:
 4
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -183,7 +243,12 @@ Expected Output:
 8
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -199,7 +264,12 @@ Expected Output:
 469
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -224,7 +294,12 @@ Expected Output:
 469
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -263,7 +338,12 @@ Expected Output:
 23689
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -271,7 +351,12 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -279,7 +364,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -287,7 +377,12 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -358,7 +453,12 @@ Expected Output:
 235689
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -366,7 +466,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -424,7 +529,12 @@ Expected Output:
 1346
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -489,7 +599,12 @@ Expected Output:
 4567
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -520,7 +635,12 @@ Expected Output:
 6
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -564,6 +684,11 @@ Expected Output:
 19
 
 Your Output: 
-Usage: python sudoku.py puzzle
+Traceback (most recent call last):
+  File "solution.py", line 64, in <module>
+    main()
+  File "solution.py", line 57, in main
+    row = input().split(' ')
+EOFError: EOF when reading a line
 ----------------------------------------
 
