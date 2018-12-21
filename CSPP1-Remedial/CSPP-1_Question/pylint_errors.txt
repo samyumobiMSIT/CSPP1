@@ -1,0 +1,42 @@
+************* Module solution
+solution.py:5:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+solution.py:18:90: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:27:5: C0326: Exactly one space required after comma
+    i,j = findNextCellToFill(grid, i, j)
+     ^ (bad-whitespace)
+solution.py:30:20: C0326: Exactly one space required after comma
+    for e in range(1,10):
+                    ^ (bad-whitespace)
+solution.py:31:23: C0326: Exactly one space required after comma
+        if isValid(grid,i,j,e):
+                       ^ (bad-whitespace)
+solution.py:31:25: C0326: Exactly one space required after comma
+        if isValid(grid,i,j,e):
+                         ^ (bad-whitespace)
+solution.py:31:27: C0326: Exactly one space required after comma
+        if isValid(grid,i,j,e):
+                           ^ (bad-whitespace)
+solution.py:37:0: C0304: Final newline missing (missing-final-newline)
+solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+solution.py:1:0: C0103: Function name "findNextCellToFill" doesn't conform to snake_case naming style (invalid-name)
+solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+solution.py:2:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+solution.py:3:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+solution.py:6:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+solution.py:7:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+solution.py:12:0: C0103: Function name "isValid" doesn't conform to snake_case naming style (invalid-name)
+solution.py:12:0: C0103: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
+solution.py:12:0: C0111: Missing function docstring (missing-docstring)
+solution.py:13:4: C0103: Variable name "rowOk" doesn't conform to snake_case naming style (invalid-name)
+solution.py:15:8: C0103: Variable name "columnOk" doesn't conform to snake_case naming style (invalid-name)
+solution.py:18:12: C0103: Variable name "secTopX" doesn't conform to snake_case naming style (invalid-name)
+solution.py:18:21: C0103: Variable name "secTopY" doesn't conform to snake_case naming style (invalid-name)
+solution.py:19:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+solution.py:20:20: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+solution.py:26:0: C0103: Function name "solveSudoku" doesn't conform to snake_case naming style (invalid-name)
+solution.py:26:0: C0111: Missing function docstring (missing-docstring)
+solution.py:30:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 1.82/10 (previous run: 1.82/10, +0.00)
+
