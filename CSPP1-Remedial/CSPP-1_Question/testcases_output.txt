@@ -1,9 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -418,15 +418,12 @@ Your Output:
 12345678
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 33, in <module>
-    if inp_ut[k] != '.':
-IndexError: string index out of range
+Invalid input
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -571,15 +568,12 @@ Your Output:
 236789
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 33, in <module>
-    if inp_ut[k] != '.':
-IndexError: string index out of range
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########

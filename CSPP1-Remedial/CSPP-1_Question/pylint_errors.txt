@@ -1,21 +1,25 @@
 ************* Module solution
-solution.py:37:0: C0305: Trailing newlines (trailing-newlines)
+solution.py:91:0: C0304: Final newline missing (missing-final-newline)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+solution.py:1:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
+solution.py:1:0: C0103: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+solution.py:1:0: C0103: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-solution.py:2:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
-solution.py:4:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
-solution.py:4:0: C0111: Missing function docstring (missing-docstring)
-solution.py:6:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
-solution.py:13:0: C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
-solution.py:13:0: C0111: Missing function docstring (missing-docstring)
-solution.py:14:8: W0621: Redefining name 'i' from outer scope (line 31) (redefined-outer-name)
-solution.py:15:12: W0621: Redefining name 'j' from outer scope (line 32) (redefined-outer-name)
-solution.py:17:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-solution.py:19:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-solution.py:21:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-solution.py:28:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-solution.py:29:4: C0103: Constant name "inp_ut" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:10:0: C0111: Missing function docstring (missing-docstring)
+solution.py:14:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+solution.py:16:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+solution.py:18:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+solution.py:24:0: C0103: Function name "checkSudoku" doesn't conform to snake_case naming style (invalid-name)
+solution.py:24:0: C0111: Missing function docstring (missing-docstring)
+solution.py:25:4: R1705: Unnecessary "else" after "return" (no-else-return)
+solution.py:30:8: R1705: Unnecessary "else" after "return" (no-else-return)
+solution.py:31:12: R1705: Unnecessary "else" after "return" (no-else-return)
+solution.py:42:0: C0111: Missing function docstring (missing-docstring)
+solution.py:48:12: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+solution.py:54:0: C0111: Missing function docstring (missing-docstring)
+solution.py:60:12: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+solution.py:66:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.15/10 (previous run: 5.15/10, +0.00)
+Your code has been rated at 7.37/10 (previous run: 5.15/10, +2.22)
 
