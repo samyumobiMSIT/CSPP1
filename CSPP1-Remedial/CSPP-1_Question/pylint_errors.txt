@@ -1,42 +1,40 @@
 ************* Module solution
-solution.py:5:0: W0311: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
-solution.py:18:90: C0303: Trailing whitespace (trailing-whitespace)
-solution.py:27:5: C0326: Exactly one space required after comma
-    i,j = findNextCellToFill(grid, i, j)
-     ^ (bad-whitespace)
-solution.py:30:20: C0326: Exactly one space required after comma
-    for e in range(1,10):
-                    ^ (bad-whitespace)
-solution.py:31:23: C0326: Exactly one space required after comma
-        if isValid(grid,i,j,e):
-                       ^ (bad-whitespace)
-solution.py:31:25: C0326: Exactly one space required after comma
-        if isValid(grid,i,j,e):
-                         ^ (bad-whitespace)
-solution.py:31:27: C0326: Exactly one space required after comma
-        if isValid(grid,i,j,e):
-                           ^ (bad-whitespace)
-solution.py:37:0: C0304: Final newline missing (missing-final-newline)
+solution.py:15:0: C0301: Line too long (126/100) (line-too-long)
+solution.py:40:0: C0301: Line too long (114/100) (line-too-long)
+solution.py:42:0: C0301: Line too long (103/100) (line-too-long)
+solution.py:52:0: C0301: Line too long (102/100) (line-too-long)
+solution.py:67:0: C0301: Line too long (124/100) (line-too-long)
+solution.py:80:0: C0301: Line too long (108/100) (line-too-long)
+solution.py:82:0: C0301: Line too long (103/100) (line-too-long)
+solution.py:96:0: C0301: Line too long (149/100) (line-too-long)
+solution.py:99:0: C0301: Line too long (123/100) (line-too-long)
+solution.py:109:0: C0301: Line too long (112/100) (line-too-long)
+solution.py:113:0: C0301: Line too long (121/100) (line-too-long)
+solution.py:117:0: C0301: Line too long (119/100) (line-too-long)
+solution.py:120:105: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:120:0: C0301: Line too long (105/100) (line-too-long)
+solution.py:137:0: C0301: Line too long (137/100) (line-too-long)
+solution.py:152:0: C0301: Line too long (104/100) (line-too-long)
+solution.py:161:0: C0301: Line too long (106/100) (line-too-long)
+solution.py:172:0: C0301: Line too long (113/100) (line-too-long)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-solution.py:1:0: C0103: Function name "findNextCellToFill" doesn't conform to snake_case naming style (invalid-name)
-solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-solution.py:2:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-solution.py:3:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-solution.py:6:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-solution.py:7:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-solution.py:12:0: C0103: Function name "isValid" doesn't conform to snake_case naming style (invalid-name)
-solution.py:12:0: C0103: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
-solution.py:12:0: C0111: Missing function docstring (missing-docstring)
-solution.py:13:4: C0103: Variable name "rowOk" doesn't conform to snake_case naming style (invalid-name)
-solution.py:15:8: C0103: Variable name "columnOk" doesn't conform to snake_case naming style (invalid-name)
-solution.py:18:12: C0103: Variable name "secTopX" doesn't conform to snake_case naming style (invalid-name)
-solution.py:18:21: C0103: Variable name "secTopY" doesn't conform to snake_case naming style (invalid-name)
-solution.py:19:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-solution.py:20:20: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-solution.py:26:0: C0103: Function name "solveSudoku" doesn't conform to snake_case naming style (invalid-name)
-solution.py:26:0: C0111: Missing function docstring (missing-docstring)
-solution.py:30:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+solution.py:1:0: C0103: Constant name "assignments" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:3:0: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+solution.py:3:0: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+solution.py:7:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:8:0: C0103: Constant name "cols" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:9:0: C0103: Constant name "boxes" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:10:0: C0103: Constant name "row_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:11:0: C0103: Constant name "col_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:12:0: C0103: Constant name "square_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:13:0: C0103: Constant name "diag_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:14:0: C0103: Constant name "units" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:15:0: C0103: Constant name "peers" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:120:24: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+solution.py:161:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+solution.py:171:4: W0702: No exception type(s) specified (bare-except)
+solution.py:166:8: E0401: Unable to import 'visualize' (import-error)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.82/10 (previous run: 1.82/10, +0.00)
+Your code has been rated at 5.47/10 (previous run: 1.82/10, +3.65)
 
