@@ -424,7 +424,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 41, in <module>
+  File "solution.py", line 51, in <module>
     if INP_UT[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
@@ -577,7 +577,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 41, in <module>
+  File "solution.py", line 51, in <module>
     if INP_UT[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
