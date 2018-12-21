@@ -17,5 +17,5 @@ solution.py:28:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE nami
 solution.py:29:4: C0103: Constant name "inp_ut" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.15/10 (previous run: 9.80/10, -4.65)
+Your code has been rated at 5.15/10 (previous run: 5.15/10, +0.00)
 
