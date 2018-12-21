@@ -3,24 +3,10 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-7 2 6 |4 9 3 |8 1 5 
-3 1 5 |7 2 8 |9 4 6 
-4 8 9 |6 5 1 |2 3 7 
-------+------+------
-8 5 2 |1 4 7 |6 9 3 
-6 7 3 |9 8 5 |1 2 4 
-9 4 1 |3 6 2 |7 5 8 
-------+------+------
-1 9 4 |8 3 6 |5 7 2 
-5 6 7 |2 1 4 |3 8 9 
-2 3 8 |5 7 9 |4 6 1 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -36,24 +22,10 @@ Expected Output:
 7
 
 Your Output: 
-123456789     2         6     |    4         9         3     |    8         1         5     
-    3         1         5     |123456789     2         8     |    9         4         6     
-    4         8         9     |    6         5         1     |    2         3     123456789 
-------------------------------+------------------------------+------------------------------
-    8         5         2     |    1         4     123456789 |    6         9         3     
-    6     123456789     3     |    9         8         5     |    1         2         4     
-    9         4         1     |    3         6         2     |123456789     5         8     
-------------------------------+------------------------------+------------------------------
-    1         9         4     |    8         3         6     |    5     123456789     2     
-    5         6     123456789 |    2         1         4     |    3         8         9     
-    2         3         8     |    5     123456789     9     |    4         6         1     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -69,24 +41,10 @@ Expected Output:
 9
 
 Your Output: 
-    4         3         5     |    2         6         9     |    7         8     123456789 
-    6         8     123456789 |    5         7         1     |    4         9         3     
-    1         9         7     |    8     123456789     4     |    5         6         2     
-------------------------------+------------------------------+------------------------------
-    8         2         6     |    1         9         5     |    3     123456789     7     
-    3         7         4     |    6         8         2     |    9         1     123456789 
-    9         5         1     |    7         4         3     |123456789     2         8     
-------------------------------+------------------------------+------------------------------
-    5         1         9     |    3         2         6     |    8     123456789     4     
-    2         4     123456789 |    9         5         7     |    1         3         6     
-    7         6         3     |    4         1         8     |    2         5     123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -96,24 +54,10 @@ Expected Output:
 2
 
 Your Output: 
-    4         3         5     |    2         6         9     |    7         8         1     
-    6         8         2     |    5         7         1     |    4         9         3     
-    1         9         7     |    8         3         4     |123456789 123456789 123456789 
-------------------------------+------------------------------+------------------------------
-    8         2         6     |    1         9         5     |    3         4         7     
-    3         7         4     |    6         8         2     |    9         1         5     
-    9         5         1     |    7         4         3     |    6         2         8     
-------------------------------+------------------------------+------------------------------
-    5         1         9     |    3         2         6     |    8         7         4     
-    2         4         8     |    9         5         7     |    1         3         6     
-    7         6         3     |    4         1         8     |    2         5         9     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -123,24 +67,10 @@ Expected Output:
 9
 
 Your Output: 
-    4         3         5     |    2         6         9     |    7         8         1     
-    6         8         2     |    5         7         1     |    4         9         3     
-    1         9         7     |    8         3         4     |    5         6         2     
-------------------------------+------------------------------+------------------------------
-    8         2         6     |    1         9         5     |    3         4         7     
-    3         7         4     |    6         8         2     |    9         1         5     
-    9         5         1     |    7         4         3     |    6         2         8     
-------------------------------+------------------------------+------------------------------
-    5         1         9     |    3         2         6     |    8         7     123456789 
-    2         4         8     |    9         5         7     |    1         3     123456789 
-    7         6         3     |    4         1         8     |    2         5     123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -156,24 +86,10 @@ Expected Output:
 15
 
 Your Output: 
-    4         3         5     |    2         6         9     |    7         8         1     
-    6         8         2     |    5         7         1     |    4         9         3     
-    1         9         7     |    8         3         4     |    5         6         2     
-------------------------------+------------------------------+------------------------------
-    8         2         6     |    1         9         5     |    3         4         7     
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-    9         5         1     |    7         4         3     |    6         2         8     
-------------------------------+------------------------------+------------------------------
-    5         1         9     |    3         2         6     |    8         7         4     
-    2         4         8     |    9         5         7     |    1         3         6     
-    7         6         3     |    4         1         8     |    2         5         9     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -189,24 +105,10 @@ Expected Output:
 3
 
 Your Output: 
-    7     123456789     6     |    4         9         3     |    8         1         5     
-    3     123456789     5     |    7         2         8     |    9         4         6     
-    4     123456789     9     |    6         5         1     |    2         3         7     
-------------------------------+------------------------------+------------------------------
-    8     123456789     2     |    1         4         7     |    6         9         3     
-    6     123456789     3     |    9         8         5     |    1         2         4     
-    9     123456789     1     |    3         6         2     |    7         5         8     
-------------------------------+------------------------------+------------------------------
-    1     123456789     4     |    8         3         6     |    5         7         2     
-    5     123456789     7     |    2         1         4     |    3         8         9     
-    2     123456789     8     |    5         7         9     |    4         6         1     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -222,24 +124,10 @@ Expected Output:
 9
 
 Your Output: 
-123456789 123456789 123456789 |    4         9         3     |    8         1         5     
-123456789 123456789 123456789 |    7         2         8     |    9         4         6     
-123456789 123456789 123456789 |    6         5         1     |    2         3         7     
-------------------------------+------------------------------+------------------------------
-    8         5         2     |    1         4         7     |    6         9         3     
-    6         7         3     |    9         8         5     |    1         2         4     
-    9         4         1     |    3         6         2     |    7         5         8     
-------------------------------+------------------------------+------------------------------
-    1         9         4     |    8         3         6     |    5         7         2     
-    5         6         7     |    2         1         4     |    3         8         9     
-    2         3         8     |    5         7         9     |    4         6         1     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -255,24 +143,10 @@ Expected Output:
 6
 
 Your Output: 
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-    7         3         9     |    2         5         6     |    8         4         1     
-    4         6         8     |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5         9     
-    5         9         1     |    7         6         3     |    4         2         8     
-    2         4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |    5         8         2     
-    6         2         5     |    9         4         8     |    1         3         7     
-    8         7         3     |    5         1         2     |    9         6         4     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -288,24 +162,10 @@ Expected Output:
 469
 
 Your Output: 
-    1         5         2     |    4         8         9     |    3         7         6     
-    7         3         9     |    2         5         6     |    8         4         1     
-    4         6         8     |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5         9     
-    5         9         1     |    7         6         3     |    4         2         8     
-    2         4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |    5         8         2     
-    6         2         5     |    9         4         8     |    1         3         7     
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -321,24 +181,10 @@ Expected Output:
 8
 
 Your Output: 
-123456789     5         2     |    4         8         9     |    3         7         6     
-123456789     3         9     |    2         5         6     |    8         4         1     
-123456789     6         8     |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-123456789     8         7     |    1         2         4     |    6         5         9     
-123456789     9         1     |    7         6         3     |    4         2         8     
-123456789     4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-123456789     1         4     |    6         3         7     |    5         8         2     
-123456789     2         5     |    9         4         8     |    1         3         7     
-123456789     7         3     |    5         1         2     |    9         6         4     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -354,24 +200,10 @@ Expected Output:
 4
 
 Your Output: 
-    1         5         2     |    4         8         9     |    3         7     123456789 
-    7         3         9     |    2         5         6     |    8         4     123456789 
-    4         6         8     |    3         7         1     |    2         9     123456789 
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5     123456789 
-    5         9         1     |    7         6         3     |    4         2     123456789 
-    2         4         6     |    8         9         5     |    7         1     123456789 
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |    5         8     123456789 
-    6         2         5     |    9         4         8     |    1         3     123456789 
-    8         7         3     |    5         1         2     |    9         6     123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -387,24 +219,10 @@ Expected Output:
 8
 
 Your Output: 
-123456789 123456789 123456789 |    4         8         9     |    3         7         6     
-123456789 123456789 123456789 |    2         5         6     |    8         4         1     
-123456789 123456789 123456789 |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5         9     
-    5         9         1     |    7         6         3     |    4         2         8     
-    2         4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |    5         8         2     
-    6         2         5     |    9         4         8     |    1         3         7     
-    8         7         3     |    5         1         2     |    9         6         4     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -420,24 +238,10 @@ Expected Output:
 469
 
 Your Output: 
-    1         5         2     |    4         8         9     |    3         7         6     
-    7         3         9     |    2         5         6     |    8         4         1     
-    4         6         8     |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5         9     
-    5         9         1     |    7         6         3     |    4         2         8     
-    2         4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |123456789 123456789 123456789 
-    6         2         5     |    9         4         8     |123456789 123456789 123456789 
-    8         7         3     |    5         1         2     |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -462,24 +266,10 @@ Expected Output:
 469
 
 Your Output: 
-123456789 123456789 123456789 |    4         8         9     |    3         7         6     
-123456789 123456789 123456789 |    2         5         6     |    8         4         1     
-123456789 123456789 123456789 |    3         7         1     |    2         9         5     
-------------------------------+------------------------------+------------------------------
-    3         8         7     |    1         2         4     |    6         5         9     
-    5         9         1     |    7         6         3     |    4         2         8     
-    2         4         6     |    8         9         5     |    7         1         3     
-------------------------------+------------------------------+------------------------------
-    9         1         4     |    6         3         7     |123456789 123456789 123456789 
-    6         2         5     |    9         4         8     |123456789 123456789 123456789 
-    8         7         3     |    5         1         2     |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -518,24 +308,10 @@ Expected Output:
 23689
 
 Your Output: 
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-123456789     6         8     |    9         5         2     |    1         7     123456789 
-123456789     9         4     |    3         8         1     |    6         5     123456789 
-------------------------------+------------------------------+------------------------------
-123456789     8         6     |    2         7         4     |    9         3     123456789 
-123456789     4         2     |    5         9         3     |    8         6     123456789 
-123456789     7         3     |    8         1         6     |    4         2     123456789 
-------------------------------+------------------------------+------------------------------
-123456789     2         1     |    7         3         9     |    5         4     123456789 
-123456789     5         9     |    4         2         8     |    7         1     123456789 
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -543,24 +319,10 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-    1         2         3     |    4         5         6     |    7         8         9     
-    1         2         3     |    4         5         6     |    7         8         9     
-    1         2         3     |    4         5         6     |    7         8         9     
-------------------------------+------------------------------+------------------------------
-    1         2         3     |    4         5         6     |    7         8         9     
-    1         2         3     |    4         5         6     |    7         8         9     
-    1         2         3     |    4         5         6     |    7         8         9     
-------------------------------+------------------------------+------------------------------
-    1         2         3     |    4         5         6     |    7         8         9     
-    1         2         3     |    4         5         6     |    7         8         9     
-123456789 123456789 123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -569,13 +331,9 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 185, in solve
-    values = grid_values(grid)
-  File "test.py", line 80, in grid_values
-    assert len(chars) == 81
-AssertionError
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -583,24 +341,10 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-    2         1         5     |    6         4         7     |    3         9         8     
-    3         6         8     |    9         5         2     |    1         7         4     
-    7         9         4     |    3         8         1     |    6         5         2     
-------------------------------+------------------------------+------------------------------
-    5         8         6     |    2         7         4     |    9         3         1     
-    1         4         2     |    5         9         3     |    8         6         7     
-    9         7         3     |    8         1         6     |    4         2         5     
-------------------------------+------------------------------+------------------------------
-    8         2         1     |    7         3         9     |    1         4         6     
-    6         5         9     |    4         2         8     |123456789     1         3     
-    4         3         7     |    1         6         5     |    2         8         1     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -671,24 +415,10 @@ Expected Output:
 235689
 
 Your Output: 
-    4     123456789 123456789 |123456789 123456789 123456789 |    8     123456789     5     
-123456789     3     123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-123456789 123456789 123456789 |    7     123456789 123456789 |123456789 123456789 123456789 
-------------------------------+------------------------------+------------------------------
-123456789     2     123456789 |123456789 123456789 123456789 |123456789     6     123456789 
-123456789 123456789 123456789 |123456789     8     123456789 |    4     123456789 123456789 
-123456789 123456789 123456789 |123456789     1     123456789 |123456789 123456789 123456789 
-------------------------------+------------------------------+------------------------------
-123456789 123456789 123456789 |    6     123456789     3     |123456789     7     123456789 
-    5     123456789 123456789 |    2     123456789 123456789 |123456789 123456789 123456789 
-    1     123456789     4     |123456789 123456789 123456789 |123456789 123456789 123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -697,13 +427,9 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 185, in solve
-    values = grid_values(grid)
-  File "test.py", line 80, in grid_values
-    assert len(chars) == 81
-AssertionError
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -761,24 +487,10 @@ Expected Output:
 1346
 
 Your Output: 
-    5         3     123456789 |123456789     7     123456789 |123456789 123456789 123456789 
-    6     123456789 123456789 |    1         9         5     |123456789 123456789 123456789 
-123456789     9         8     |123456789 123456789 123456789 |123456789     6     123456789 
-------------------------------+------------------------------+------------------------------
-    8     123456789 123456789 |123456789     6     123456789 |123456789 123456789     3     
-    4     123456789 123456789 |    8     123456789     3     |123456789 123456789     1     
-    7     123456789 123456789 |123456789     2     123456789 |123456789 123456789     6     
-------------------------------+------------------------------+------------------------------
-123456789     6     123456789 |123456789 123456789 123456789 |    2         8     123456789 
-123456789 123456789 123456789 |    4         1         9     |123456789 123456789     5     
-123456789 123456789 123456789 |123456789     8     123456789 |123456789     7         9     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -843,24 +555,10 @@ Expected Output:
 4567
 
 Your Output: 
-    8         5     123456789 |123456789 123456789 123456789 |123456789 123456789 123456789 
-123456789 123456789 123456789 |    1         3     123456789 |123456789 123456789 123456789 
-    4     123456789 123456789 |123456789 123456789 123456789 |123456789     9         5     
-------------------------------+------------------------------+------------------------------
-123456789     2     123456789 |    9     123456789     8     |123456789 123456789 123456789 
-    5         8         1     |123456789 123456789 123456789 |123456789 123456789 123456789 
-123456789 123456789 123456789 |123456789 123456789 123456789 |    7     123456789     6     
-------------------------------+------------------------------+------------------------------
-123456789 123456789     7     |123456789 123456789     1     |    8     123456789 123456789 
-123456789 123456789 123456789 |    8     123456789     9     |123456789 123456789 123456789 
-123456789 123456789 123456789 |123456789 123456789 123456789 |    2         1         3     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -891,24 +589,10 @@ Expected Output:
 6
 
 Your Output: 
-    7     123456789     6     |    4         9         3     |    8     123456789     5     
-    3         1     123456789 |    7         2     123456789 |    9         4     123456789 
-    4         8         9     |123456789     5         1     |    2         3     123456789 
-------------------------------+------------------------------+------------------------------
-    8     123456789     2     |    1     123456789     7     |    6         9         3     
-123456789     7         3     |123456789     8     123456789 |    1         2     123456789 
-    9         4     123456789 |    3         6         2     |123456789     5     123456789 
-------------------------------+------------------------------+------------------------------
-    1         9     123456789 |    8     123456789     6     |    5     123456789     2     
-    5     123456789     7     |    2         1     123456789 |    3         8     123456789 
-123456789     3         8     |    5         7         9     |    4     123456789     1     
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -952,23 +636,9 @@ Expected Output:
 19
 
 Your Output: 
-    7     123456789 123456789 |123456789     9     123456789 |    8     123456789     5     
-    3         1     123456789 |    7         2     123456789 |123456789 123456789     6     
-    4     123456789     9     |123456789     5     123456789 |    2     123456789     7     
-------------------------------+------------------------------+------------------------------
-123456789     5         2     |    1     123456789     7     |123456789     9     123456789 
-    6         7     123456789 |    9         8     123456789 |    1     123456789     4     
-    9     123456789     1     |123456789     6     123456789 |    7         5     123456789 
-------------------------------+------------------------------+------------------------------
-123456789     9     123456789 |    8     123456789     6     |    5     123456789     2     
-    5         6     123456789 |123456789 123456789     4     |123456789     8     123456789 
-123456789     3     123456789 |    5         7     123456789 |    4         6     123456789 
-
 Traceback (most recent call last):
-  File "test.py", line 199, in <module>
+  File "test.py", line 200, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 194, in solve
-    raise Exception("Can't solve this Soduku!")
-Exception: Can't solve this Soduku!
+NameError: name 'display' is not defined
 ----------------------------------------
 

@@ -36,8 +36,8 @@ test.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
 test.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
 test.py:181:0: C0301: Line too long (104/100) (line-too-long)
 test.py:188:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:208:0: C0304: Final newline missing (missing-final-newline)
-test.py:208:0: C0301: Line too long (113/100) (line-too-long)
+test.py:209:0: C0304: Final newline missing (missing-final-newline)
+test.py:209:0: C0301: Line too long (113/100) (line-too-long)
 test.py:1:0: C0111: Missing module docstring (missing-docstring)
 test.py:2:0: C0103: Constant name "assignments" doesn't conform to UPPER_CASE naming style (invalid-name)
 test.py:4:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -57,9 +57,6 @@ test.py:47:8: C0103: Variable name "nt" doesn't conform to snake_case naming sty
 test.py:56:16: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
 test.py:56:19: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
 test.py:75:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-test.py:91:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-test.py:94:22: C0321: More than one statement on a single line (multiple-statements)
-test.py:83:0: R1711: Useless return at end of function or method (useless-return)
 test.py:140:11: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 test.py:140:48: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 test.py:131:4: W0612: Unused variable 'solved_values' (unused-variable)
@@ -67,10 +64,13 @@ test.py:151:7: C0121: Comparison to False should be 'not expr' or 'expr is False
 test.py:144:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 test.py:164:4: W0612: Unused variable 'min_choice' (unused-variable)
 test.py:189:4: R1705: Unnecessary "else" after "return" (no-else-return)
-test.py:197:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:207:4: W0702: No exception type(s) specified (bare-except)
-test.py:202:8: E0401: Unable to import 'visualize' (import-error)
+test.py:191:8: W0101: Unreachable code (unreachable)
+test.py:193:8: E0602: Undefined variable 'display' (undefined-variable)
+test.py:198:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:200:4: E0602: Undefined variable 'display' (undefined-variable)
+test.py:208:4: W0702: No exception type(s) specified (bare-except)
+test.py:203:8: E0401: Unable to import 'visualize' (import-error)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.38/10 (previous run: 4.29/10, +0.09)
+Your code has been rated at 3.24/10 (previous run: 4.38/10, -1.14)
 
