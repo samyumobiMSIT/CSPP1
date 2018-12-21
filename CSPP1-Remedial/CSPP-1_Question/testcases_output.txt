@@ -5,9 +5,9 @@ Given sudoku is solved
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -27,9 +27,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -49,9 +49,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -65,9 +65,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -81,9 +81,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -103,9 +103,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -125,9 +125,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -147,9 +147,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -169,9 +169,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -191,9 +191,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -213,9 +213,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -235,9 +235,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -257,9 +257,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -279,9 +279,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -310,9 +310,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -355,9 +355,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -369,9 +369,9 @@ Invalid Sudoku:Duplicate values
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -382,7 +382,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
   File "test.py", line 185, in solve
     values = grid_values(grid)
@@ -398,9 +398,9 @@ Invalid Sudoku:Duplicate values
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -475,9 +475,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -488,7 +488,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
   File "test.py", line 185, in solve
     values = grid_values(grid)
@@ -554,9 +554,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -625,9 +625,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -662,9 +662,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------
@@ -712,9 +712,9 @@ Expected Output:
 Your Output: 
 
 Traceback (most recent call last):
-  File "test.py", line 200, in <module>
+  File "test.py", line 201, in <module>
     display(solve(diag_sudoku_grid))
-  File "test.py", line 195, in solve
+  File "test.py", line 196, in solve
     raise Exception("Can't solve this Soduku!")
 Exception: Can't solve this Soduku!
 ----------------------------------------

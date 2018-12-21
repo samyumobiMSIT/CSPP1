@@ -36,8 +36,8 @@ test.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
 test.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
 test.py:181:0: C0301: Line too long (104/100) (line-too-long)
 test.py:188:0: C0303: Trailing whitespace (trailing-whitespace)
-test.py:209:0: C0304: Final newline missing (missing-final-newline)
-test.py:209:0: C0301: Line too long (113/100) (line-too-long)
+test.py:210:0: C0304: Final newline missing (missing-final-newline)
+test.py:210:0: C0301: Line too long (113/100) (line-too-long)
 test.py:1:0: C0111: Missing module docstring (missing-docstring)
 test.py:2:0: C0103: Constant name "assignments" doesn't conform to UPPER_CASE naming style (invalid-name)
 test.py:4:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -66,10 +66,10 @@ test.py:144:0: R1710: Either all return statements in a function should return a
 test.py:164:4: W0612: Unused variable 'min_choice' (unused-variable)
 test.py:189:4: R1705: Unnecessary "else" after "return" (no-else-return)
 test.py:191:8: W0101: Unreachable code (unreachable)
-test.py:198:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-test.py:208:4: W0702: No exception type(s) specified (bare-except)
-test.py:203:8: E0401: Unable to import 'visualize' (import-error)
+test.py:199:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:209:4: W0702: No exception type(s) specified (bare-except)
+test.py:204:8: E0401: Unable to import 'visualize' (import-error)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.15/10 (previous run: 4.29/10, -0.13)
+Your code has been rated at 4.21/10 (previous run: 4.15/10, +0.05)
 

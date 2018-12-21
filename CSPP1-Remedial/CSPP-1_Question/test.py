@@ -189,8 +189,9 @@ def solve(grid):
     if attempt:
         return attempt
         print("Given sudoku is solved")
+        only_choice(values)
     else:
-        display(grid_values(grid))
+        display(only_choice(values))
         print()
         raise Exception("Can't solve this Soduku!")
 
