@@ -57,9 +57,7 @@ test.py:47:8: C0103: Variable name "nt" doesn't conform to snake_case naming sty
 test.py:56:16: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
 test.py:56:19: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
 test.py:75:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-test.py:91:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-test.py:94:22: C0321: More than one statement on a single line (multiple-statements)
-test.py:83:0: R1711: Useless return at end of function or method (useless-return)
+test.py:83:12: W0613: Unused argument 'values' (unused-argument)
 test.py:140:11: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 test.py:140:48: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
 test.py:131:4: W0612: Unused variable 'solved_values' (unused-variable)
@@ -73,5 +71,5 @@ test.py:208:4: W0702: No exception type(s) specified (bare-except)
 test.py:203:8: E0401: Unable to import 'visualize' (import-error)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.29/10 (previous run: 3.24/10, +1.05)
+Your code has been rated at 4.15/10 (previous run: 4.29/10, -0.13)
 
