@@ -36,5 +36,5 @@ solution.py:171:4: W0702: No exception type(s) specified (bare-except)
 solution.py:166:8: E0401: Unable to import 'visualize' (import-error)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.47/10 (previous run: 1.82/10, +3.65)
+Your code has been rated at 5.47/10 (previous run: 5.47/10, +0.00)
 
