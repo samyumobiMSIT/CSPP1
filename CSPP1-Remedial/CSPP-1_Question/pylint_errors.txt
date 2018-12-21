@@ -1,18 +1,6 @@
 ************* Module solution
-solution.py:7:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:11:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:15:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:19:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:23:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:27:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:31:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:35:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:39:0: C0301: Line too long (116/100) (line-too-long)
-solution.py:64:0: C0304: Final newline missing (missing-final-newline)
-solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-solution.py:1:0: R0911: Too many return statements (10/6) (too-many-return-statements)
-solution.py:55:8: W0612: Unused variable 'i' (unused-variable)
+solution.py:92:0: C0304: Final newline missing (missing-final-newline)
 
---------------------------------------------------------------------
-Your code has been rated at 5.36/10 (previous run: -5.00/10, +10.36)
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 5.36/10, +4.45)
 
