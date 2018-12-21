@@ -1,6 +1,77 @@
-************* Module solution
-solution.py:92:0: C0304: Final newline missing (missing-final-newline)
+************* Module test
+test.py:15:46: C0326: Exactly one space required after comma
+square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
+                                              ^ (bad-whitespace)
+test.py:15:52: C0326: Exactly one space required after comma
+square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
+                                                    ^ (bad-whitespace)
+test.py:15:76: C0326: Exactly one space required after comma
+square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
+                                                                            ^ (bad-whitespace)
+test.py:15:82: C0326: Exactly one space required after comma
+square_units = [cross(rs, cs) for rs in ('ABC','DEF','GHI') for cs in ('123','456','789')]
+                                                                                  ^ (bad-whitespace)
+test.py:20:33: C0326: Exactly one space required after comma
+peers = dict((s, set(sum(units[s],[]))-set([s])) for s in boxes)
+                                 ^ (bad-whitespace)
+test.py:41:52: C0303: Trailing whitespace (trailing-whitespace)
+test.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:57:36: C0303: Trailing whitespace (trailing-whitespace)
+test.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:71:0: C0301: Line too long (114/100) (line-too-long)
+test.py:99:0: C0301: Line too long (126/100) (line-too-long)
+test.py:107:53: C0326: Exactly one space required after comma
+            values[peer] = values[peer].replace(digit,'')
+                                                     ^ (bad-whitespace)
+test.py:112:0: C0301: Line too long (128/100) (line-too-long)
+test.py:125:0: C0301: Line too long (115/100) (line-too-long)
+test.py:146:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:153:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:159:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:162:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:166:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:175:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:181:0: C0301: Line too long (104/100) (line-too-long)
+test.py:188:0: C0303: Trailing whitespace (trailing-whitespace)
+test.py:197:0: C0301: Line too long (106/100) (line-too-long)
+test.py:207:0: C0304: Final newline missing (missing-final-newline)
+test.py:207:0: C0301: Line too long (113/100) (line-too-long)
+test.py:1:0: C0111: Missing module docstring (missing-docstring)
+test.py:2:0: C0103: Constant name "assignments" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:4:0: C0103: Constant name "rows" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:5:0: C0103: Constant name "cols" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:7:0: C0103: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+test.py:7:0: C0103: Argument name "B" doesn't conform to snake_case naming style (invalid-name)
+test.py:11:0: C0103: Constant name "boxes" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:13:0: C0103: Constant name "row_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:14:0: C0103: Constant name "column_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:15:0: C0103: Constant name "square_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:16:0: C0103: Constant name "diagonal_units" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:18:0: C0103: Constant name "unitlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:19:0: C0103: Constant name "units" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:20:0: C0103: Constant name "peers" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:43:8: C0103: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+test.py:47:8: C0103: Variable name "nt" doesn't conform to snake_case naming style (invalid-name)
+test.py:56:16: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+test.py:56:19: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+test.py:75:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+test.py:91:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+test.py:94:22: C0321: More than one statement on a single line (multiple-statements)
+test.py:83:0: R1711: Useless return at end of function or method (useless-return)
+test.py:140:11: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+test.py:140:48: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+test.py:131:4: W0612: Unused variable 'solved_values' (unused-variable)
+test.py:151:7: C0121: Comparison to False should be 'not expr' or 'expr is False' (singleton-comparison)
+test.py:144:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+test.py:164:4: W0612: Unused variable 'min_choice' (unused-variable)
+test.py:189:4: R1705: Unnecessary "else" after "return" (no-else-return)
+test.py:197:4: C0103: Constant name "diag_sudoku_grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+test.py:206:4: W0702: No exception type(s) specified (bare-except)
+test.py:201:8: E0401: Unable to import 'visualize' (import-error)
 
-------------------------------------------------------------------
-Your code has been rated at 9.80/10 (previous run: 8.80/10, +1.00)
+-----------------------------------
+Your code has been rated at 4.29/10
 

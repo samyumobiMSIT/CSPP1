@@ -3,12 +3,18 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -24,12 +30,18 @@ Expected Output:
 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -45,12 +57,18 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -60,12 +78,18 @@ Expected Output:
 2
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -75,12 +99,18 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -96,12 +126,18 @@ Expected Output:
 15
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -117,12 +153,18 @@ Expected Output:
 3
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -138,12 +180,18 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -159,12 +207,18 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -180,12 +234,18 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -201,12 +261,18 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -222,12 +288,18 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -243,12 +315,18 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -264,12 +342,18 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -294,12 +378,18 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -338,12 +428,18 @@ Expected Output:
 23689
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -351,12 +447,18 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -364,12 +466,18 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -377,12 +485,18 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -453,12 +567,18 @@ Expected Output:
 235689
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -466,12 +586,18 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -529,12 +655,18 @@ Expected Output:
 1346
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -599,12 +731,18 @@ Expected Output:
 4567
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -635,12 +773,18 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -684,11 +828,17 @@ Expected Output:
 19
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 92, in <module>
-    main()
-  File "solution.py", line 85, in main
-    row = input()
-EOFError: EOF when reading a line
+2 6 7 |9 4 5 |3 8 1 
+8 5 3 |7 1 6 |2 4 9 
+4 9 1 |8 2 3 |5 7 6 
+------+------+------
+5 7 6 |4 3 8 |1 9 2 
+3 8 4 |1 9 2 |6 5 7 
+1 2 9 |6 5 7 |4 3 8 
+------+------+------
+6 4 2 |3 7 9 |8 1 5 
+9 3 5 |2 8 1 |7 6 4 
+7 1 8 |5 6 4 |9 2 3 
+We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.
 ----------------------------------------
 
