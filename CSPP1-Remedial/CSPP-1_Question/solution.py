@@ -1,172 +1,111 @@
-assignments = []
+def compute():
+    def extract(sudoku):  # For example: extract([3, 9, 4, 1, ...]) = 394
+        return int("".join(map(str, sudoku[: 3])))
 
-def cross(A, B):
-    "Cross product of elements in A and elements in B."
-    return [a + b for a in A for b in B]
-
-rows = 'ABCDEFGHI'
-cols = '123456789'
-boxes = cross(rows, cols)
-row_units = [cross(row, cols) for row in rows]
-col_units = [cross(rows, col) for col in cols]
-square_units = [cross(row, col) for row in ['ABC', 'DEF', 'GHI'] for col in ['123', '456', '789']]
-diag_units = [[a + b for a, b in zip(A, cols)] for A in [rows, reversed(rows)]] # Two diagonal units
-units = row_units + col_units + square_units + diag_units # List of all units
-peers = {box: set(sum([unit for unit in units if box in unit], [])) - {box} for box in boxes} # Dictionary of box to its peers
-
-def assign_value(values, box, value):
-    """
-    Please use this function to update your values dictionary!
-    Assigns a value to a given box. If it updates the board record it.
-    """
-
-    # Don't waste memory appending actions that don't actually change any values
-    if values[box] == value:
-        return values
-
-    values[box] = value
-    if len(value) == 1:
-        assignments.append(values.copy())
-    return values
-
-def grid_values(grid):
-    """
-    Convert grid into a dict of {square: char} with '123456789' for empties.
-    Args:
-        grid(string) - A grid in string form.
-    Returns:
-        A grid in dictionary form
-            Keys: The boxes, e.g., 'A1'
-            Values: The value in each box, e.g., '8'. If the box has no value, then the value will be '123456789'.
-    """
-    return {box: value if value != '.' else '123456789' for box, value in zip(cross(rows, cols), grid)}
-
-def display(values):
-    """
-    Display the values as a 2-D grid.
-    Args:
-        values(dict): The sudoku in dictionary form
-    """
-    width = max(len(values[box]) for box in boxes) + 1
-    for row in rows:
-        print(''.join(values[row + col].center(width) + ('|' if col in '36' else '') for col in cols))
-        if row in 'CF':
-            print('+'.join(['-'*(width*3)]*3))
-
-def eliminate(values):
-    """
-    If a box is filled in eliminate its value from its peers.
-    Args:
-        values(dict): The sudoku in dictionary form
-    Returns:
-        values(dict): The sudoku with filled in values removed from peers
-    """
-    for box, value in values.items():
-        if len(value) == 1: # Pick the filled in boxes
-            for peer in peers[box]: # Find its peers
-                values = assign_value(values, peer, values[peer].replace(value, "")) # Remove corresponding value from peers
-    return values
-
-def only_choice(values):
-    """
-    If a value is only possible in one box across a unit fill that box with the value
-    Args:
-        values(dict): The sudoku in dictionary form
-    Returns:
-        values(dict): The sudoku with values with only one place to go set
-    """
-    for unit in units:
-        for value in '123456789':
-            choices = [box for box in unit if value in values[box]] # Possible boxes for a value in one unit
-            if len(choices) == 1: # One choice means the value has only one place to go
-                values = assign_value(values, choices[0], value) # Set the only-choice box to the value
-    return values
-
-def naked_twins(values):
-    """Eliminate values using the naked twins strategy.
-    Args:
-        values(dict): a dictionary of the form {'box_name': '123456789', ...}
-    Returns:
-        the values dictionary with the naked twins eliminated from peers.
-    """
-
-    # Find all instances of naked twins
-    # Eliminate the naked twins as possibilities for their peers
-    for unit in units:
-        twins = {a for a in unit for b in unit if values[a] == values[b] and a is not b and len(values[a]) == 2} # All boxes that are twins in a unit
-        for box in set(unit) - twins: # Exclude the twins from boxes that need to be updated
-            for value in values[box]:
-                if value in ''.join(values[twin] for twin in twins): # If a value belongs to one of the twins, eliminate it
-                    values = assign_value(values, box, values[box].replace(value, ''))
-    return values
-
-def reduce_puzzle(values):
-    """
-    Narrow search space using three strategies: eliminate, only_choice and naked_twins
-    Args:
-        values(dict): The sudoku in dictionary form
-    Returns:
-        values(dict): The sudoku dictionary after exhausting all possible elimination using the three strategies
-        False(bool): If the sudoku is in an illegal state
-    """
-    while True:
-        solved_before = len([box for box in boxes if len(values[box]) == 1]) # Number of filled in boxes before reduction
-        values = eliminate(values)
-        values = only_choice(values)
-        values = naked_twins(values)
-        solved_after = len([box for box in boxes if len(values[box]) == 1]) # Number of filled in boxes after reduction
-        if solved_before == solved_after: # Break when there is no more elimination possible
-            break
-    return False if any(len(values[box]) == 0 for box in boxes) else values # Detect constraint violation 
+    ans = sum(extract(solve(puz)) for puz in PUZZLES)
+    return str(ans)
 
 
-def search(values):
-    """
-    Find a solution for the sudoku, use trial and error if no further elimination is possible
-    Args:
-        values(dict): The sudoku in dictionary form
-    Returns:
-        values(dict): The solved sudoku
-        False(bool): If the sudoku is not solvable
-    """
-    values = reduce_puzzle(values) # Exhaust all elimination to minimize potential searching
-    if not values: # Fail early if the search path reaches a contradiction
-        return False
-    if all(len(values[box]) == 1 for box in boxes): # Detect if sudoku is already solved
-        return values
-    _, node = min((len(values[box]), box) for box in boxes if len(values[box]) > 1) # Select box with minimal number of values to try out
-    for value in values[node]:
-        branch = values.copy()
-        branch = assign_value(branch, node, value) # Set the node to the hypothetical value
-        branch = search(branch) # Reapply the process to this branch of possible states
-        if branch: # Return the solution if found
-            return branch
-    return False # No legal state possible for this sudoku
+# Given a string of 81 digits, this returns a list of 81 ints representing the solved sudoku puzzle.
+def solve(puzzlestr):
+    # Initialize initial state
+    assert len(puzzlestr) == 81
+    state = [int(c) for c in puzzlestr]
+    colfree = [set(range(1, 10)) for i in range(9)]
+    rowfree = [set(range(1, 10)) for i in range(9)]
+    boxfree = [set(range(1, 10)) for i in range(9)]
+    for y in range(9):
+        for x in range(9):
+            d = state[y * 9 + x]
+            if d != 0:
+                colfree[x].remove(d)
+                rowfree[y].remove(d)
+                boxfree[y // 3 * 3 + x // 3].remove(d)
+
+    # Returns True/False to indicate whether a solution was found
+    # when given the initial state and coordinates.
+    def recurse(i):
+        if i == 81:
+            return True
+        elif state[i] != 0:
+            return recurse(i + 1)
+        else:
+            x = i % 9
+            y = i // 9
+            j = y // 3 * 3 + x // 3
+            candidates = colfree[x].intersection(rowfree[y], boxfree[j])
+            for d in candidates:
+                state[i] = d
+                colfree[x].remove(d)
+                rowfree[y].remove(d)
+                boxfree[j].remove(d)
+                if recurse(i + 1):
+                    return True
+                # Otherwise backtrack
+                colfree[x].add(d)
+                rowfree[y].add(d)
+                boxfree[j].add(d)
+            state[i] = 0
+            return False
+
+    # Call the helper function
+    if not recurse(0):
+        raise AssertionError("Unsolvable")
+    return state
 
 
-def solve(grid):
-    """
-    Find the solution to a Sudoku grid.
-    Args:
-        grid(string): a string representing a sudoku grid.
-            Example: '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'
-    Returns:
-        The dictionary representation of the final sudoku grid. False if no solution exists.
-    """
-    grid = grid_values(grid)
-    grid = search(grid)
-    return grid
+PUZZLES = [
+    "003020600900305001001806400008102900700000008006708200002609500800203009005010300",
+    "200080300060070084030500209000105408000000000402706000301007040720040060004010003",
+    "000000907000420180000705026100904000050000040000507009920108000034059000507000000",
+    "030050040008010500460000012070502080000603000040109030250000098001020600080060020",
+    "020810740700003100090002805009040087400208003160030200302700060005600008076051090",
+    "100920000524010000000000070050008102000000000402700090060000000000030945000071006",
+    "043080250600000000000001094900004070000608000010200003820500000000000005034090710",
+    "480006902002008001900370060840010200003704100001060049020085007700900600609200018",
+    "000900002050123400030000160908000000070000090000000205091000050007439020400007000",
+    "001900003900700160030005007050000009004302600200000070600100030042007006500006800",
+    "000125400008400000420800000030000095060902010510000060000003049000007200001298000",
+    "062340750100005600570000040000094800400000006005830000030000091006400007059083260",
+    "300000000005009000200504000020000700160000058704310600000890100000067080000005437",
+    "630000000000500008005674000000020000003401020000000345000007004080300902947100080",
+    "000020040008035000000070602031046970200000000000501203049000730000000010800004000",
+    "361025900080960010400000057008000471000603000259000800740000005020018060005470329",
+    "050807020600010090702540006070020301504000908103080070900076205060090003080103040",
+    "080005000000003457000070809060400903007010500408007020901020000842300000000100080",
+    "003502900000040000106000305900251008070408030800763001308000104000020000005104800",
+    "000000000009805100051907420290401065000000000140508093026709580005103600000000000",
+    "020030090000907000900208005004806500607000208003102900800605007000309000030020050",
+    "005000006070009020000500107804150000000803000000092805907006000030400010200000600",
+    "040000050001943600009000300600050002103000506800020007005000200002436700030000040",
+    "004000000000030002390700080400009001209801307600200008010008053900040000000000800",
+    "360020089000361000000000000803000602400603007607000108000000000000418000970030014",
+    "500400060009000800640020000000001008208000501700500000000090084003000600060003002",
+    "007256400400000005010030060000508000008060200000107000030070090200000004006312700",
+    "000000000079050180800000007007306800450708096003502700700000005016030420000000000",
+    "030000080009000500007509200700105008020090030900402001004207100002000800070000090",
+    "200170603050000100000006079000040700000801000009050000310400000005000060906037002",
+    "000000080800701040040020030374000900000030000005000321010060050050802006080000000",
+    "000000085000210009960080100500800016000000000890006007009070052300054000480000000",
+    "608070502050608070002000300500090006040302050800050003005000200010704090409060701",
+    "050010040107000602000905000208030501040070020901080406000401000304000709020060010",
+    "053000790009753400100000002090080010000907000080030070500000003007641200061000940",
+    "006080300049070250000405000600317004007000800100826009000702000075040190003090600",
+    "005080700700204005320000084060105040008000500070803010450000091600508007003010600",
+    "000900800128006400070800060800430007500000009600079008090004010003600284001007000",
+    "000080000270000054095000810009806400020403060006905100017000620460000038000090000",
+    "000602000400050001085010620038206710000000000019407350026040530900020007000809000",
+    "000900002050123400030000160908000000070000090000000205091000050007439020400007000",
+    "380000000000400785009020300060090000800302009000040070001070500495006000000000092",
+    "000158000002060800030000040027030510000000000046080790050000080004070100000325000",
+    "010500200900001000002008030500030007008000500600080004040100700000700006003004050",
+    "080000040000469000400000007005904600070608030008502100900000005000781000060000010",
+    "904200007010000000000706500000800090020904060040002000001607000000000030300005702",
+    "000700800006000031040002000024070000010030080000060290000800070860000500002006000",
+    "001007090590080001030000080000005800050060020004100000080000030100020079020700400",
+    "000003017015009008060000000100007000009000200000500004000000020500600340340200000",
+    "300200000000107000706030500070009080900020004010800050009040301000702000000008006",
+]
 
-if __name__ == '__main__':
-    diag_sudoku_grid = '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'
-    display(solve(diag_sudoku_grid))
-
-
-    try:
-        from visualize import visualize_assignments
-        visualize_assignments(assignments)
-
-    except SystemExit:
-        pass
-    except:
-        print('We could not visualize your board due to a pygame issue. Not a problem! It is not a requirement.')
+if __name__ == "__main__":
+    print(compute())
