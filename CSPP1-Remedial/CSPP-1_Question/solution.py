@@ -1,5 +1,5 @@
 """
-{ item_description }
+{ Solution }
 """
 def print_sudoku(grd):
     for i in range(9):
@@ -10,7 +10,6 @@ def print_sudoku(grd):
 """
 creating a set
 """
-#
 def create_set(a, row, col):
     #set to removve duplicates
     li_st = set()

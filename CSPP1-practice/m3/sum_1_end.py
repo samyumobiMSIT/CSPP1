@@ -2,6 +2,7 @@
 
 
 
+
 END = int(input())
 
 SUM = 0
