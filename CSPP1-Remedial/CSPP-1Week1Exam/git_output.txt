@@ -1,5 +1,0 @@
-[master ba2944e] "cspp1_m10_a1_1: 0/3 testcases passed. Cannot run hidden testcases as Server is unreachablepylint score: 3/10 "
- 3 files changed, 16 insertions(+), 15 deletions(-)
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-To https://github.com/samyumobiMSIT/CSPP1.git
-   4311787..ba2944e  master -> master
