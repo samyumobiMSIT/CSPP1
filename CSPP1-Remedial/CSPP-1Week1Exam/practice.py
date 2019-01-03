@@ -32,11 +32,15 @@ def bg(f):
     c = 0
     end = []
     for j in srt:
-        for q in end:
-            index=q.index("}")
-            q = q[:index]
-            print(index)
-            end.append(q)
+        if "!" not in j:
+            j = j[1:].replace(" ", "")
+            end.append(j)
+            c +=1
+    for q in end:
+        index = q.index("}")
+        q = q[:index]
+        print(index)
+        end.append(q)
     end_res=sorted(end)
     print(end_res)
     #Display the count of different colours present on the webpage
