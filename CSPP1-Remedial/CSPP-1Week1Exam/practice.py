@@ -16,24 +16,29 @@ def img(f):
 def bg(f):
     l_c=[] #background colors
     final = ";"
+    initial = ":"
     bg_color= f.split(";")
     t = "background-color"
     ans=[]
-    for data in l_c:
+    for data in bg_color:
         if t in data:
             #s is background[0]
             s=data.s(t)
             data = data[s +len(t) : ]
             ans.append(data)
     print(ans)
-    initial=":"
-    end = []
-    for c in ans:
-        if ":" in c:
-            s=c.s(initial)
-            c = c[s +len(initial) : ]
-            print(c)
-    set_c =set(end)
+    #Display the colours in sorted order (remove duplicate colours)
+    srt = list(ans)
+    c = 0
+
+
+
+    # for c in ans:
+    #     if ":" in c:
+    #         s=c.s(initial)
+    #         c = c[s +len(initial) : ]
+    #         print(c)
+    # set_c =set(end)
 
 
 
