@@ -14,7 +14,17 @@ def img(f):
 
 
 def bg(f):
-    pass
+    l_c=[] #background colors
+    final = ";"
+    t = "background"
+    ans=[]
+    for data in l_c:
+        if t in data:
+            #s is background[0]
+            s=data.s(t)
+            data = data[s +len(t) : ]
+            ans.append(data)
+    print(ans)
 
 def ls(f):
     pass
