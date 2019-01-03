@@ -26,7 +26,7 @@ def bg(f):
             index=data.index(t)
             data = data[index +len(t) : ]
             ans.append(data)
-    print(ans)
+
     #Display the colours in sorted order (remove duplicate colours)
     srt = list(ans)
     c = 0
@@ -36,6 +36,9 @@ def bg(f):
             index=q.index("}")
             q = q[:index]
             print(index)
+            end.append(q)
+    end_res=sorted(end)
+    print(end_res)
 
 
 
