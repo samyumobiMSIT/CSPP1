@@ -1,0 +1,21 @@
+#000
+#004681
+#1955a5
+#E10C16
+#FF0000
+#c39190
+#d3d3d3
+#d5d5d5
+#e1e1e1
+#efdede
+#f0f0f0
+#f1f1f1
+#fff
+black
+inherit
+rgb(247, 247, 247)
+rgba(0, 0, 0, 0.7)
+rgba(0,0,0,.6)
+rgba(0,0,0,0.4)
+transparent
+20
