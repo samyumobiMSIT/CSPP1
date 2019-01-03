@@ -23,7 +23,11 @@ def ensurenodup(sudo):
 
 
 def getRV(j ,ls):
-	return ls[j]
+	r = []
+	for y in ls[j]:
+		if y!='.':
+			r.append(y)
+	return r
 
 def getCV(j, ls):
 	c = []
