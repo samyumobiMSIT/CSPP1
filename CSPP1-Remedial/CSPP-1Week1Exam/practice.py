@@ -16,6 +16,7 @@ def img(f):
 def bg(f):
     l_c=[] #background colors
     final = ";"
+    bg_color= f.split(";")
     t = "background"
     ans=[]
     for data in l_c:
@@ -25,6 +26,16 @@ def bg(f):
             data = data[s +len(t) : ]
             ans.append(data)
     print(ans)
+    initial=":"
+    end = []
+    for c in ans:
+        if ":" in c:
+            s=c.s(initial)
+            c = c[s +len(initial) : ]
+            print(c)
+    set_c =set(end)
+
+
 
 def ls(f):
     pass
