@@ -35,6 +35,6 @@ practice.py:24:0: C0111: Missing function docstring (missing-docstring)
 practice.py:25:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
 practice.py:28:4: C0103: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
 
--------------------------------------------------------------------
-Your code has been rated at 1.38/10 (previous run: -4.69/10, +6.07)
+------------------------------------------------------------------
+Your code has been rated at 1.38/10 (previous run: 1.38/10, +0.00)
 

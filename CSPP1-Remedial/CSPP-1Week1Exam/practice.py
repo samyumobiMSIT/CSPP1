@@ -23,7 +23,7 @@ def ls(f):
 
 def main():
     f = open("webpage5.html",encoding="utf8").read()
-    print(f)
+    print(f.encode("utf-8"))
     #inputs option for either image background or list
     o = input()
     if o == 'img':
