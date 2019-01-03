@@ -6,7 +6,7 @@ def ensure81(v):
 	if len(v) != 81:
 		raise Exception("Invalid input")
 	elif '.' not in v:
-		raise Exception("Solved")
+		raise Exception("Given sudoku is solved")
 '''
 Values should be between 1 2 9 and 
 should not have duplicate values in row or col

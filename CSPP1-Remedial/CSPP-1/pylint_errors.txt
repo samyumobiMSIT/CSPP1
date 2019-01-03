@@ -182,6 +182,6 @@ Sudoku.py:89:4: C0103: Variable name "v" doesn't conform to snake_case naming st
 Sudoku.py:92:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:92:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
 
----------------------------------------------------------------------
-Your code has been rated at -10.00/10 (previous run: -5.70/10, -4.30)
+----------------------------------------------------------------------
+Your code has been rated at -10.00/10 (previous run: -10.00/10, +0.00)
 
