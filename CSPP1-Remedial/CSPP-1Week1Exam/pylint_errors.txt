@@ -64,5 +64,5 @@ practice.py:46:4: C0103: Variable name "f" doesn't conform to snake_case naming 
 practice.py:49:4: C0103: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.70/10 (previous run: 1.84/10, -0.14)
+Your code has been rated at 1.70/10 (previous run: 1.70/10, +0.00)
 

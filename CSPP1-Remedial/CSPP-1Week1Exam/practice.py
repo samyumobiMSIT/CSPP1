@@ -17,7 +17,7 @@ def bg(f):
     l_c=[] #background colors
     final = ";"
     bg_color= f.split(";")
-    t = "background"
+    t = "background-color"
     ans=[]
     for data in l_c:
         if t in data:
