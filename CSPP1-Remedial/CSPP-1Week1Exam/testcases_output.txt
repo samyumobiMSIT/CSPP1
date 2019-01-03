@@ -69,48 +69,13 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 
 Your Output: 
 Traceback (most recent call last):
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
-    encode_chunked=req.has_header('Transfer-encoding'))
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
-    self.send(msg)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
-    self.connect()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1392, in connect
-    server_hostname=server_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 412, in wrap_socket
-    session=session
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 850, in _create
-    self.do_handshake()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 1108, in do_handshake
-    self._sslobj.do_handshake()
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "practice.py", line 4, in <module>
-    urlretrieve("https://wwww.webpage5.html")
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 247, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
-    response = self._open(req, data)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
-    '_open', req)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
-    result = func(*args)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  File "practice.py", line 43, in <module>
+    main()
+  File "practice.py", line 26, in main
+    print(f)
+  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2009' in position 147761: character maps to <undefined>
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -139,48 +104,13 @@ transparent
 
 Your Output: 
 Traceback (most recent call last):
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
-    encode_chunked=req.has_header('Transfer-encoding'))
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
-    self.send(msg)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
-    self.connect()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1392, in connect
-    server_hostname=server_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 412, in wrap_socket
-    session=session
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 850, in _create
-    self.do_handshake()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 1108, in do_handshake
-    self._sslobj.do_handshake()
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "practice.py", line 4, in <module>
-    urlretrieve("https://wwww.webpage5.html")
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 247, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
-    response = self._open(req, data)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
-    '_open', req)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
-    result = func(*args)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  File "practice.py", line 43, in <module>
+    main()
+  File "practice.py", line 26, in main
+    print(f)
+  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2009' in position 147761: character maps to <undefined>
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -252,47 +182,12 @@ Events
 
 Your Output: 
 Traceback (most recent call last):
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
-    encode_chunked=req.has_header('Transfer-encoding'))
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
-    self.send(msg)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
-    self.connect()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1392, in connect
-    server_hostname=server_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 412, in wrap_socket
-    session=session
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 850, in _create
-    self.do_handshake()
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\ssl.py", line 1108, in do_handshake
-    self._sslobj.do_handshake()
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "practice.py", line 4, in <module>
-    urlretrieve("https://wwww.webpage5.html")
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 247, in urlretrieve
-    with contextlib.closing(urlopen(url, data)) as fp:
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
-    return opener.open(url, data, timeout)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
-    response = self._open(req, data)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
-    '_open', req)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
-    result = func(*args)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
-    context=self._context, check_hostname=self._check_hostname)
-  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
-    raise URLError(err)
-urllib.error.URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+  File "practice.py", line 43, in <module>
+    main()
+  File "practice.py", line 26, in main
+    print(f)
+  File "C:\Users\mantrisam\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2009' in position 147761: character maps to <undefined>
 ----------------------------------------
 

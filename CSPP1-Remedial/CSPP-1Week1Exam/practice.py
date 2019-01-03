@@ -1,8 +1,3 @@
-from  urllib.request import urlretrieve
-url="webpage5.html"
-#data = urllib.request.
-urlretrieve("https://wwww.webpage5.html")
-
 def img(f):
     i = f.split('><')
     tag = "img src = "
@@ -10,7 +5,7 @@ def img(f):
     c=0
     s = []
     for item_1 in i:
-        if "img src=\ " '' in item and " data- " in item_1:
+        if "img src=\ " '' in item_1 and " data- " in item_1:
             s +=item_1
             index = item_1.index(tag)
             item_1=item_1[index+len(tag):]
@@ -27,16 +22,16 @@ def ls(f):
 
 
 def main():
-    f = open(url,encoding="utf8").read()
+    f = open("webpage5.html",encoding="utf8").read()
     print(f)
     #inputs option for either image background or list
     o = input()
     if o == 'img':
-        img(file)
+        img(f)
     elif o == 'bg':
-        bg(file)
+        bg(f)
     elif o == 'ls':
-        ls(file)
+        ls(f)
 
 
 
