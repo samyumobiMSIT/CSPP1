@@ -78,7 +78,7 @@ def pv(ls):
 			if ls[j][i] == '.':
 				r = getRV(j,ls)
 				c = getCV(i,ls)
-				ans = r + c
+				ans = r + c +
 				space = ' '
 				for x in range(1,10):
 					#checking if data is btw 1 2 9 and is = ans
@@ -96,6 +96,12 @@ def main() :
 	ls =[]
 	try:
 		ensure81(v1)
+		while(k < 81):
+			r = []
+			for l in range(9):
+				r.append(v[l])
+				l = l + 1
+			ls.append(r)
 		ensurenodup(ls)
 		pv(ls)
 	except Exception as f:
