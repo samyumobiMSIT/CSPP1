@@ -144,12 +144,26 @@ Sudoku.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 Sudoku.py:92:11: C0326: No space allowed before :
 def main() :
            ^ (bad-whitespace)
+Sudoku.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:96:4: C0326: Exactly one space required after assignment
+	ls =[]
+    ^ (bad-whitespace)
+Sudoku.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:107:0: C0305: Trailing newlines (trailing-newlines)
+Sudoku.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:112:0: C0305: Trailing newlines (trailing-newlines)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:5:0: C0103: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:5:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:13:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:14:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:14:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:22:4: W0101: Unreachable code (unreachable)
 Sudoku.py:25:0: C0103: Function name "getRV" doesn't conform to snake_case naming style (invalid-name)
@@ -183,10 +197,14 @@ Sudoku.py:80:4: C0103: Variable name "c" doesn't conform to snake_case naming st
 Sudoku.py:83:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:91:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:92:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:93:4: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:96:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:96:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:93:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:94:1: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:96:1: C0103: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:101:8: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:101:1: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:94:1: W0612: Unused variable 'v' (unused-variable)
+Sudoku.py:95:1: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -7.08/10 (previous run: -7.06/10, -0.02)
+Your code has been rated at -8.05/10 (previous run: -7.08/10, -0.97)
 

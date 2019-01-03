@@ -11,9 +11,9 @@ def ensure81(v):
 Values should be between 1 2 9 and 
 should not have duplicate values in row or col
 '''
-def ensurenodup(sudo):
+def ensurenodup(ls):
 	dup = list()
-	for box in sudo:
+	for box in ls:
 		if box!=".":
 			if box not in dup:
 				dup.append(box)
@@ -90,11 +90,16 @@ def pv(ls):
 Main Function
 '''
 def main() :
-    v = str(input())
-    try:
-        ensure81(v)
-    except Exception as f:
-        print(f)
+	v1 = input()
+	v = list(v1)
+	k = 0
+	ls =[]
+	try:
+		ensure81(v1)
+		ensurenodup(ls)
+		pv(ls)
+	except Exception as f:
+		print(f)
 
 
 if __name__ == '__main__':
