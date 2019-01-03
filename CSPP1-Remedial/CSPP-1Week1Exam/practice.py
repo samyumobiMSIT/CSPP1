@@ -1,5 +1,5 @@
 def img(f):
-    i = f.split('><')
+    i = f.split('<img')
     tag = "img src = "
     end_tag = " data-"
     c=0
@@ -48,15 +48,6 @@ def bg(f):
         if "}" not in y:
             print(y)
     print(c)
-
-
-
-    # for c in ans:
-    #     if ":" in c:
-    #         s=c.s(initial)
-    #         c = c[s +len(initial) : ]
-    #         print(c)
-    # set_c =set(end)
 
 
 
