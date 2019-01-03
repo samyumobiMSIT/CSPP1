@@ -72,8 +72,8 @@ def pv(ls):
 		for i in range(len(ls[0])):
 			#loop moves from 0 till end
 			if ls[j][i] == '.':
-				r = getRV(a,sudo)
-				c = getCV(b,sudo)
+				r = getRV(j,ls)
+				c = getCV(i,ls)
 				ans = r + c
 				space = ' '
 				for x in range(1,10):

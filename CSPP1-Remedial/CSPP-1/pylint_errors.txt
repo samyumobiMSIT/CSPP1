@@ -119,11 +119,11 @@ Sudoku.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 Sudoku.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:75:15: C0326: Exactly one space required after comma
-				r = getRV(a,sudo)
+				r = getRV(j,ls)
                ^ (bad-whitespace)
 Sudoku.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:76:15: C0326: Exactly one space required after comma
-				c = getCV(b,sudo)
+				c = getCV(i,ls)
                ^ (bad-whitespace)
 Sudoku.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:78:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -170,11 +170,7 @@ Sudoku.py:68:0: C0103: Argument name "ls" doesn't conform to snake_case naming s
 Sudoku.py:68:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:70:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Sudoku.py:75:4: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:75:14: E0602: Undefined variable 'a' (undefined-variable)
-Sudoku.py:75:16: E0602: Undefined variable 'sudo' (undefined-variable)
 Sudoku.py:76:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:76:14: E0602: Undefined variable 'b' (undefined-variable)
-Sudoku.py:76:16: E0602: Undefined variable 'sudo' (undefined-variable)
 Sudoku.py:79:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:87:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:88:0: C0111: Missing function docstring (missing-docstring)
@@ -182,6 +178,6 @@ Sudoku.py:89:4: C0103: Variable name "v" doesn't conform to snake_case naming st
 Sudoku.py:92:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:92:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
 
-----------------------------------------------------------------------
-Your code has been rated at -10.00/10 (previous run: -10.00/10, +0.00)
+---------------------------------------------------------------------
+Your code has been rated at -7.06/10 (previous run: -10.00/10, +2.94)
 
