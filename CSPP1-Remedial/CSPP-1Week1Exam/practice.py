@@ -14,7 +14,7 @@ def img(f):
 
 
 def bg(f):
-    l_c=[] #background colors
+
     final = ";"
     initial = ":"
     bg_color= f.split(";")
@@ -39,6 +39,11 @@ def bg(f):
             end.append(q)
     end_res=sorted(end)
     print(end_res)
+    #Display the count of different colours present on the webpage
+    for y in end_res:
+        if "}" not in y:
+            print(y)
+    print(c)
 
 
 

@@ -11,9 +11,6 @@ practice.py:11:18: C0326: Exactly one space required around assignment
 practice.py:13:14: C0326: Exactly one space required after assignment
             c +=1
               ^^ (bad-whitespace)
-practice.py:17:7: C0326: Exactly one space required around assignment
-    l_c=[] #background colors
-       ^ (bad-whitespace)
 practice.py:20:12: C0326: Exactly one space required before assignment
     bg_color= f.split(";")
             ^ (bad-whitespace)
@@ -29,7 +26,7 @@ practice.py:36:17: C0326: Exactly one space required around assignment
 practice.py:40:11: C0326: Exactly one space required around assignment
     end_res=sorted(end)
            ^ (bad-whitespace)
-practice.py:60:28: C0326: Exactly one space required after comma
+practice.py:65:28: C0326: Exactly one space required after comma
     f = open("webpage5.html",encoding="utf8").read()
                             ^ (bad-whitespace)
 practice.py:8:0: W1401: Anomalous backslash in string: '\ '. String constant might be missing an r prefix. (anomalous-backslash-in-string)
@@ -48,19 +45,18 @@ practice.py:21:4: C0103: Variable name "t" doesn't conform to snake_case naming 
 practice.py:32:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
 practice.py:35:12: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
 practice.py:37:12: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-practice.py:17:4: W0612: Unused variable 'l_c' (unused-variable)
+practice.py:43:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 practice.py:18:4: W0612: Unused variable 'final' (unused-variable)
 practice.py:19:4: W0612: Unused variable 'initial' (unused-variable)
-practice.py:32:4: W0612: Unused variable 'c' (unused-variable)
 practice.py:34:8: W0612: Unused variable 'j' (unused-variable)
-practice.py:54:0: C0103: Function name "ls" doesn't conform to snake_case naming style (invalid-name)
-practice.py:54:0: C0103: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
-practice.py:54:0: C0111: Missing function docstring (missing-docstring)
-practice.py:54:7: W0613: Unused argument 'f' (unused-argument)
+practice.py:59:0: C0103: Function name "ls" doesn't conform to snake_case naming style (invalid-name)
+practice.py:59:0: C0103: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
 practice.py:59:0: C0111: Missing function docstring (missing-docstring)
-practice.py:60:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
-practice.py:63:4: C0103: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+practice.py:59:7: W0613: Unused argument 'f' (unused-argument)
+practice.py:64:0: C0111: Missing function docstring (missing-docstring)
+practice.py:65:4: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+practice.py:68:4: C0103: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.20/10 (previous run: 2.08/10, +0.12)
+Your code has been rated at 3.02/10 (previous run: 2.20/10, +0.82)
 
