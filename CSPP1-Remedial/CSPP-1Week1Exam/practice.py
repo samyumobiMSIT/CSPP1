@@ -23,13 +23,19 @@ def bg(f):
     for data in bg_color:
         if t in data:
             #s is background[0]
-            s=data.s(t)
-            data = data[s +len(t) : ]
+            index=data.index(t)
+            data = data[index +len(t) : ]
             ans.append(data)
     print(ans)
     #Display the colours in sorted order (remove duplicate colours)
     srt = list(ans)
     c = 0
+    end = []
+    for j in srt:
+        for q in end:
+            index=q.index("}")
+            q = q[:index]
+            print(index)
 
 
 
