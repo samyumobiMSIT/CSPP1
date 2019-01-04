@@ -12,14 +12,14 @@ Values should be between 1 2 9 and
 should not have duplicate values in row or col
 '''
 def ensurenodup(ls):
-	dup = list()
-	for box in ls:
-		if box!=".":
-			if box not in dup:
-				dup.append(box)
-			else:
-				raise Exception("duplicate")
-				return
+	for y in range(9):
+		r = getRV(y,ls)
+		c = getCV(y,ls)
+		if len(set(r))!=len(r):
+			raise Exception("duplicate")
+		if len(set(c))!=len(c):
+			raise Exception("duplicate")
+
 
 
 def getRV(j ,ls):
@@ -40,14 +40,86 @@ def getCV(j, ls):
 def grid(j,i,ls):
 	s = []
 	t = False
-	if(j >= 0 & j <=9) & (i >=0 & i <=9):
-		for srow in range(0,9):
-			for scol in range(0, 9):
-				if srow == j and scol == i:
-					t = True
+	for srow in range(0,3):
+		for scol in range(0, 3):
+			if srow == j and scol == i:
+				t = True
 			s.append(ls[srow][scol])
 	if t == True:
 		return s
+	s = []
+	t = False
+	for srow in range(0,3):
+		for scol in range(3, 6):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(0,3):
+		for scol in range(6, 9):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(3,6):
+		for scol in range(0, 3):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(3,6):
+		for scol in range(3, 6):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(3,6):
+		for scol in range(6, 9):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(6,9):
+		for scol in range(0, 3):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(6,9):
+		for scol in range(3, 6):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+	s = []
+	t = False
+	for srow in range(6,9):
+		for scol in range(6, 9):
+			if srow == j and scol == i:
+				t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
+
 
 ''' Possibile values in sudoku '''
 def pv(ls):
