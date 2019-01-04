@@ -13,132 +13,142 @@ should not have duplicate values in row or col
 '''
 def ensurenodup(ls):
 	for y in range(0, 9):
-		r = getRV(y,ls)
+		rv = getRV(y,ls)
 
-		if len(set(r))!=len(r):
+		if len(set(rv))!=len(rv):
 			raise Exception("duplicate")
-		c = getCV(y, ls)
-		if len(set(c))!=len(c):
+		cv = getCV(y, ls)
+		if len(set(cv))!=len(cv):
 			raise Exception("duplicate")
 
 
 
-def getRV(j ,ls):
+def getRV(c1 ,ls):
 	r = []
-	for y in ls[j]:
+	for y in ls[c1]:
 		if y!='.':
 			r.append(y)
+
 	return r
 
-def getCV(j, ls):
+def getCV(c1, ls):
 	c = []
 	#iterating all row values where value!='.'
 	for r in ls:
-		if r[j]!='.':
-			c.append(r[j])
+		if r[c1]!='.':
+			c.append(r[c1])
+
 	return c
 
 
-def grid(j,i,ls):
-	s = []
-	t = False
-	for srow in range(0,3):
-		for scol in range(0, 3):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+def grid(l1,m1,ls):
+	sg = []
+	v1 = False
+	for n1 in range(0,3):
+		for p1 in range(0, 3):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(0,3):
-		for scol in range(3, 6):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(0, 3):
+		for p1 in range(3, 6):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(0,3):
-		for scol in range(6, 9):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(0, 3):
+		for p1 in range(6, 9):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(3,6):
-		for scol in range(0, 3):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(3, 6):
+		for p1 in range(0, 3):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(3,6):
-		for scol in range(3, 6):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(3, 6):
+		for p1 in range(3, 6):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(3,6):
-		for scol in range(6, 9):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(3, 6):
+		for p1 in range(6, 9):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(6,9):
-		for scol in range(0, 3):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(6, 9):
+		for p1 in range(0, 3):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(6,9):
-		for scol in range(3, 6):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
-	s = []
+	sg = []
+	v1 = False
+	for n1 in range(6, 9):
+		for p1 in range(3, 6):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
-	for srow in range(6,9):
-		for scol in range(6, 9):
-			if srow == j and scol == i:
-				t = True
-			s.append(ls[srow][scol])
-	if t == True:
-		return s
+	sg = []
+	v1 = False
+	for n1 in range(6, 9):
+		for p1 in range(6, 9):
+			if n1 == l1 and p1 == m1:
+				v1 = True
+			sg.append(ls[n1][p1])
+	if v1 == True:
+		return sg
 
 
 ''' Possibile values in sudoku '''
 def pv(ls):
-	for j in range(len(ls)):
+	for n1 in range(len(ls)):
 		# len= 9*9, a: data 
-		for i in range(len(ls[0])):
+		for p1 in range(len(ls[0])):
 			#loop moves from 0 till end
-			if ls[j][i] == '.':
-				r = getRV(j,ls)
-				c = getCV(i,ls)
-				gv = grid(j,i,ls)
-				ans = r + c + gv
+			if ls[n1][p1] == '.':
+				rvl = getRV(n1,ls)
+				cvl = getCV(p1,ls)
+				gv = grid(n1,p1,ls)
+				ans = rvl + cvl + gv
 				space = ' '
-				for x in range(1,10):
+				for l1 in range(1,10):
 					#checking if data is btw 1 2 9 and is = ans
-					if str(x) not in ans:
-						space += str(x)
+					if str(l1) not in ans:
+						space += str(l1)
 					print(space)
 
 '''
@@ -147,15 +157,15 @@ Main Function
 def main() :
 	v1 = input()
 	v = list(v1)
-	k = 0
+	n1 = 0
 	ls =[]
 	try:
 		ensure81(v1)
-		while(k < 81):
+		while(n1 < 81):
 			r = []
-			for l in range(0, 9):
-				r.append(v[l])
-				l = l + 1
+			for k in range(0, 9):
+				r.append(v[n1])
+				n1 = n1 + 1
 			ls.append(r)
 		ensurenodup(ls)
 		pv(ls)

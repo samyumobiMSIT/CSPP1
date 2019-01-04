@@ -5,26 +5,26 @@ Sudoku.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-inden
 Sudoku.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:16:13: C0326: Exactly one space required after comma
-		r = getRV(y,ls)
-             ^ (bad-whitespace)
+Sudoku.py:16:14: C0326: Exactly one space required after comma
+		rv = getRV(y,ls)
+              ^ (bad-whitespace)
 Sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:18:16: C0326: Exactly one space required around comparison
-		if len(set(r))!=len(r):
-                ^^ (bad-whitespace)
+Sudoku.py:18:17: C0326: Exactly one space required around comparison
+		if len(set(rv))!=len(rv):
+                 ^^ (bad-whitespace)
 Sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:21:16: C0326: Exactly one space required around comparison
-		if len(set(c))!=len(c):
-                ^^ (bad-whitespace)
+Sudoku.py:21:17: C0326: Exactly one space required around comparison
+		if len(set(cv))!=len(cv):
+                 ^^ (bad-whitespace)
 Sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:26:12: C0326: No space allowed before comma
-def getRV(j ,ls):
-            ^ (bad-whitespace)
-Sudoku.py:26:12: C0326: Exactly one space required after comma
-def getRV(j ,ls):
-            ^ (bad-whitespace)
+Sudoku.py:26:13: C0326: No space allowed before comma
+def getRV(c1 ,ls):
+             ^ (bad-whitespace)
+Sudoku.py:26:13: C0326: Exactly one space required after comma
+def getRV(c1 ,ls):
+             ^ (bad-whitespace)
 Sudoku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -32,38 +32,33 @@ Sudoku.py:29:6: C0326: Exactly one space required around comparison
 		if y!='.':
       ^^ (bad-whitespace)
 Sudoku.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:37:9: C0326: Exactly one space required around comparison
-		if r[j]!='.':
-         ^^ (bad-whitespace)
 Sudoku.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:38:10: C0326: Exactly one space required around comparison
+		if r[c1]!='.':
+          ^^ (bad-whitespace)
 Sudoku.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:42:10: C0326: Exactly one space required after comma
-def grid(j,i,ls):
-          ^ (bad-whitespace)
-Sudoku.py:42:12: C0326: Exactly one space required after comma
-def grid(j,i,ls):
-            ^ (bad-whitespace)
-Sudoku.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:44:11: C0326: Exactly one space required after comma
+def grid(l1,m1,ls):
+           ^ (bad-whitespace)
+Sudoku.py:44:14: C0326: Exactly one space required after comma
+def grid(l1,m1,ls):
+              ^ (bad-whitespace)
 Sudoku.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:45:20: C0326: Exactly one space required after comma
-	for srow in range(0,3):
-                    ^ (bad-whitespace)
 Sudoku.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:47:18: C0326: Exactly one space required after comma
+	for n1 in range(0,3):
+                  ^ (bad-whitespace)
 Sudoku.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:54:20: C0326: Exactly one space required after comma
-	for srow in range(0,3):
-                    ^ (bad-whitespace)
+Sudoku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -71,135 +66,124 @@ Sudoku.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 Sudoku.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:63:20: C0326: Exactly one space required after comma
-	for srow in range(0,3):
-                    ^ (bad-whitespace)
-Sudoku.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:72:20: C0326: Exactly one space required after comma
-	for srow in range(3,6):
-                    ^ (bad-whitespace)
 Sudoku.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:78:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:79:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:81:20: C0326: Exactly one space required after comma
-	for srow in range(3,6):
-                    ^ (bad-whitespace)
 Sudoku.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:90:20: C0326: Exactly one space required after comma
-	for srow in range(3,6):
-                    ^ (bad-whitespace)
 Sudoku.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:99:20: C0326: Exactly one space required after comma
-	for srow in range(6,9):
-                    ^ (bad-whitespace)
 Sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:103:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:104:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:105:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:107:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:108:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:108:20: C0326: Exactly one space required after comma
-	for srow in range(6,9):
-                    ^ (bad-whitespace)
 Sudoku.py:109:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:110:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:111:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:112:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:113:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:114:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:115:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:116:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:117:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:117:20: C0326: Exactly one space required after comma
-	for srow in range(6,9):
-                    ^ (bad-whitespace)
 Sudoku.py:118:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:119:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:120:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:121:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:122:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:123:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:125:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:126:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:127:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:128:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:129:21: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:129:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:130:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:131:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:132:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:133:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:133:15: C0326: Exactly one space required after comma
-				r = getRV(j,ls)
-               ^ (bad-whitespace)
-Sudoku.py:134:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:134:15: C0326: Exactly one space required after comma
-				c = getCV(i,ls)
-               ^ (bad-whitespace)
-Sudoku.py:135:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:135:15: C0326: Exactly one space required after comma
-				gv = grid(j,i,ls)
-               ^ (bad-whitespace)
-Sudoku.py:135:17: C0326: Exactly one space required after comma
-				gv = grid(j,i,ls)
-                 ^ (bad-whitespace)
-Sudoku.py:136:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:137:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:138:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:138:20: C0326: Exactly one space required after comma
-				for x in range(1,10):
-                    ^ (bad-whitespace)
+Sudoku.py:139:21: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:140:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:147:11: C0326: No space allowed before :
-def main() :
-           ^ (bad-whitespace)
+Sudoku.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:143:18: C0326: Exactly one space required after comma
+				rvl = getRV(n1,ls)
+                  ^ (bad-whitespace)
+Sudoku.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:144:18: C0326: Exactly one space required after comma
+				cvl = getCV(p1,ls)
+                  ^ (bad-whitespace)
+Sudoku.py:145:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:145:16: C0326: Exactly one space required after comma
+				gv = grid(n1,p1,ls)
+                ^ (bad-whitespace)
+Sudoku.py:145:19: C0326: Exactly one space required after comma
+				gv = grid(n1,p1,ls)
+                   ^ (bad-whitespace)
+Sudoku.py:146:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:147:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:148:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:149:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:148:21: C0326: Exactly one space required after comma
+				for l1 in range(1,10):
+                     ^ (bad-whitespace)
 Sudoku.py:150:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:151:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:151:4: C0326: Exactly one space required after assignment
-	ls =[]
-    ^ (bad-whitespace)
 Sudoku.py:152:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:153:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:154:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:154:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-Sudoku.py:155:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:156:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:157:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:157:11: C0326: No space allowed before :
+def main() :
+           ^ (bad-whitespace)
 Sudoku.py:158:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:159:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:160:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:161:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:161:4: C0326: Exactly one space required after assignment
+	ls =[]
+    ^ (bad-whitespace)
 Sudoku.py:162:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:163:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:164:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:164:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+Sudoku.py:165:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:166:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:167:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:173:0: C0305: Trailing newlines (trailing-newlines)
+Sudoku.py:168:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:169:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:170:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:171:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:172:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:173:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:177:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Sudoku.py:183:0: C0305: Trailing newlines (trailing-newlines)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:5:0: C0103: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:5:0: C0111: Missing function docstring (missing-docstring)
@@ -207,71 +191,103 @@ Sudoku.py:13:-1: W0105: String statement has no effect (pointless-string-stateme
 Sudoku.py:14:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:14:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:15:5: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:16:2: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:20:2: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:16:2: C0103: Variable name "rv" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:20:2: C0103: Variable name "cv" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:26:0: C0103: Function name "getRV" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:26:0: C0103: Argument name "c1" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:26:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:26:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:27:1: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:28:5: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:33:0: C0103: Function name "getCV" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:33:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:33:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:34:1: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:36:5: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:42:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:42:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:43:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:44:1: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:48:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:50:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:52:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:57:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:59:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:61:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:66:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:68:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:70:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:75:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:77:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:79:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:84:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:86:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:88:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:93:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:95:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:97:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:102:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:104:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:106:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:111:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:113:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:115:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:120:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:34:0: C0103: Function name "getCV" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:34:0: C0103: Argument name "c1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:34:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:34:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:35:1: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:37:5: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:44:0: C0103: Argument name "l1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:44:0: C0103: Argument name "m1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:44:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:44:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:45:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:46:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:47:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:48:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:50:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:52:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:55:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:56:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:57:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:58:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:60:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:62:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:65:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:66:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:67:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:68:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:70:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:72:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:75:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:76:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:77:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:78:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:80:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:82:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:85:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:86:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:87:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:88:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:90:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:92:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:95:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:96:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:97:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:98:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:100:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:102:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:105:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:106:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:107:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:108:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:110:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:112:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:115:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:116:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:117:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:118:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:120:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:122:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-Sudoku.py:42:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
-Sudoku.py:42:0: R0911: Too many return statements (9/6) (too-many-return-statements)
-Sudoku.py:42:0: R0912: Too many branches (36/12) (too-many-branches)
-Sudoku.py:126:0: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:127:0: C0103: Function name "pv" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:127:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:127:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:128:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:133:4: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:134:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:135:4: C0103: Variable name "gv" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:138:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:146:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:147:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:148:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:149:1: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:151:1: C0103: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:162:8: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:155:3: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:156:7: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:158:4: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:162:1: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:125:1: C0103: Variable name "sg" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:126:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:127:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:128:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:130:4: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:132:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+Sudoku.py:44:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Sudoku.py:44:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+Sudoku.py:44:0: R0912: Too many branches (36/12) (too-many-branches)
+Sudoku.py:44:0: R0915: Too many statements (55/50) (too-many-statements)
+Sudoku.py:136:0: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:137:0: C0103: Function name "pv" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:137:0: C0103: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:137:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:138:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Sudoku.py:138:5: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:140:6: C0103: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:145:4: C0103: Variable name "gv" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:148:8: C0103: Variable name "l1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:156:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:157:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:158:1: C0103: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:159:1: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:160:1: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:161:1: C0103: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:172:8: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:165:3: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:168:4: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:172:1: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:166:7: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.57/10 (previous run: -6.57/10, +0.00)
+Your code has been rated at -7.89/10 (previous run: -6.57/10, -1.32)
 
