@@ -38,34 +38,16 @@ def getCV(j, ls):
 
 
 def grid(j,i,ls):
-	s = list()
-	if(j >= 0 & j < 9) & (i >=0 & i < 9):
+	s = []
+	t = False
+	if(j >= 0 & j <=9) & (i >=0 & i <=9):
 		for srow in range(0,9):
-			for scol in range(0,9):
-				s.append(ls[srow][scol])
-	return s
-
-def data(box,j,ls):
-	n = [1,2,3,4,5,6,7,8,9]
-	new = []
-	#get roe, col, grid values
-	r_v = condatatoint(getRV(box,ls))
-	c_v = condatatoint(getCV(box,ls))
-	g_v = condatatoint(grid(box,j,ls))
-	result = ""
-	for box in n:
-		if box not in r_v and c_v and g_v:
-			new.append(box)
-	result = ''.join(list(map(str,new)))
-	print(result)
-
-def condatatoint(integer) :
-	r = ''.join(integer)
-	r = r.replace(".","")
-	r = list(r)
-	mapped = list(map(int,r))
-	return mapped
-
+			for scol in range(0, 9):
+				if srow == j and scol == i:
+					t = True
+			s.append(ls[srow][scol])
+	if t == True:
+		return s
 
 ''' Possibile values in sudoku '''
 def pv(ls):
@@ -76,7 +58,8 @@ def pv(ls):
 			if ls[j][i] == '.':
 				r = getRV(j,ls)
 				c = getCV(i,ls)
-				ans = r + c + s
+				gv = grid(j,i,ls)
+				ans = r + c + gv
 				space = ' '
 				for x in range(1,10):
 					#checking if data is btw 1 2 9 and is = ans
