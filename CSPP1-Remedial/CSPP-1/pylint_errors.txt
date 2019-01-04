@@ -289,5 +289,5 @@ Sudoku.py:156:4: C0103: Variable name "l" doesn't conform to snake_case naming s
 Sudoku.py:160:1: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.88/10 (previous run: -7.71/10, +0.83)
+Your code has been rated at -6.88/10 (previous run: -6.88/10, +0.00)
 
