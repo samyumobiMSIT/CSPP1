@@ -289,5 +289,5 @@ Sudoku.py:172:1: C0103: Variable name "f" doesn't conform to snake_case naming s
 Sudoku.py:166:7: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -7.89/10 (previous run: -6.57/10, -1.32)
+Your code has been rated at -7.89/10 (previous run: -7.89/10, +0.00)
 

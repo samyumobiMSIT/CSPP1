@@ -16,10 +16,10 @@ def ensurenodup(ls):
 		rv = getRV(y,ls)
 
 		if len(set(rv))!=len(rv):
-			raise Exception("duplicate")
+			raise Exception("Invalid Sudoku:Duplicate values")
 		cv = getCV(y, ls)
 		if len(set(cv))!=len(cv):
-			raise Exception("duplicate")
+			raise Exception("Invalid Sudoku:Duplicate values")
 
 
 
@@ -50,7 +50,7 @@ def grid(l1,m1,ls):
 				v1 = True
 			sg.append(ls[n1][p1])
 	if v1 == True:
-		return sg
+	        return sg
 
 	sg = []
 	v1 = False
@@ -60,7 +60,7 @@ def grid(l1,m1,ls):
 				v1 = True
 			sg.append(ls[n1][p1])
 	if v1 == True:
-		return sg
+		    return sg
 
 	sg = []
 	v1 = False
