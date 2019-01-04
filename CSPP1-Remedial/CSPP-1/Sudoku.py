@@ -50,7 +50,7 @@ def grid(l1,m1,ls):
 				v1 = True
 			sg.append(ls[n1][p1])
 	if v1 == True:
-	        return sg
+	    return sg
 
 	sg = []
 	v1 = False
@@ -60,7 +60,7 @@ def grid(l1,m1,ls):
 				v1 = True
 			sg.append(ls[n1][p1])
 	if v1 == True:
-		    return sg
+		return sg
 
 	sg = []
 	v1 = False
