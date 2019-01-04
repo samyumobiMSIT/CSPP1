@@ -37,14 +37,13 @@ def getCV(j, ls):
 	return c
 
 
-def grid(j,i,ls ):
-
-    s = list()
-    if(j >= 0 & j < 9) & (i >=0 & i < 9):
-        for srow in range(0,9): #subrow, subcol
-            for scol in range(0,9):
-                s.append(ls[srow][scol])
-    return s
+def grid(j,i,ls):
+	s = list()
+	if(j >= 0 & j < 9) & (i >=0 & i < 9):
+		for srow in range(0,9):
+			for scol in range(0,9):
+				s.append(ls[srow][scol])
+	return s
 
 def data(box,j,ls):
 	n = [1,2,3,4,5,6,7,8,9]
@@ -70,7 +69,6 @@ def condatatoint(integer) :
 
 ''' Possibile values in sudoku '''
 def pv(ls):
-
 	for j in range(len(ls)):
 		# len= 9*9, a: data 
 		for i in range(len(ls[0])):
@@ -78,7 +76,7 @@ def pv(ls):
 			if ls[j][i] == '.':
 				r = getRV(j,ls)
 				c = getCV(i,ls)
-				ans = r + c +
+				ans = r + c + s
 				space = ' '
 				for x in range(1,10):
 					#checking if data is btw 1 2 9 and is = ans

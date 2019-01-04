@@ -199,10 +199,7 @@ Expected Output:
 4
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -227,10 +224,7 @@ Expected Output:
 4
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -269,10 +263,7 @@ Expected Output:
 23689
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -280,21 +271,15 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -302,10 +287,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -376,21 +358,15 @@ Expected Output:
 23689
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -448,10 +424,7 @@ Expected Output:
 1346
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -516,10 +489,7 @@ Expected Output:
 4567
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -550,10 +520,7 @@ Expected Output:
 6
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -597,9 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-  File "Sudoku.py", line 81
-    ans = r + c +
-                ^
-SyntaxError: invalid syntax
+
 ----------------------------------------
 
