@@ -60,7 +60,6 @@ Sudoku.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 Sudoku.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Sudoku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Sudoku.py:54:20: C0326: Exactly one space required after comma
 	for srow in range(0,3):
@@ -227,7 +226,6 @@ Sudoku.py:44:1: C0103: Variable name "t" doesn't conform to snake_case naming st
 Sudoku.py:48:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:50:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 Sudoku.py:52:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:53:1: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:57:4: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:59:4: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 Sudoku.py:61:1: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
@@ -275,5 +273,5 @@ Sudoku.py:158:4: C0103: Variable name "l" doesn't conform to snake_case naming s
 Sudoku.py:162:1: C0103: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.59/10 (previous run: -6.88/10, +0.29)
+Your code has been rated at -6.57/10 (previous run: -6.59/10, +0.03)
 

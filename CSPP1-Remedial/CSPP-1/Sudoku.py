@@ -50,7 +50,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(0,3):
 		for scol in range(3, 6):
 			if srow == j and scol == i:
@@ -138,7 +138,7 @@ def pv(ls):
 				for x in range(1,10):
 					#checking if data is btw 1 2 9 and is = ans
 					if str(x) not in ans:
-						space = space + str(x)
+						space += str(x)
 					print(space)
 
 '''
