@@ -12,11 +12,12 @@ Values should be between 1 2 9 and
 should not have duplicate values in row or col
 '''
 def ensurenodup(ls):
-	for y in range(9):
+	for y in range(0, 9):
 		r = getRV(y,ls)
-		c = getCV(y,ls)
+
 		if len(set(r))!=len(r):
 			raise Exception("duplicate")
+		c = getCV(y, ls)
 		if len(set(c))!=len(c):
 			raise Exception("duplicate")
 
@@ -33,7 +34,8 @@ def getCV(j, ls):
 	c = []
 	#iterating all row values where value!='.'
 	for r in ls:
-         c.append(r[j])
+		if r[j]!='.':
+			c.append(r[j])
 	return c
 
 
@@ -57,7 +59,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(0,3):
 		for scol in range(6, 9):
 			if srow == j and scol == i:
@@ -66,7 +68,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(3,6):
 		for scol in range(0, 3):
 			if srow == j and scol == i:
@@ -75,7 +77,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(3,6):
 		for scol in range(3, 6):
 			if srow == j and scol == i:
@@ -84,7 +86,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(3,6):
 		for scol in range(6, 9):
 			if srow == j and scol == i:
@@ -93,7 +95,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(6,9):
 		for scol in range(0, 3):
 			if srow == j and scol == i:
@@ -102,7 +104,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(6,9):
 		for scol in range(3, 6):
 			if srow == j and scol == i:
@@ -111,7 +113,7 @@ def grid(j,i,ls):
 	if t == True:
 		return s
 	s = []
-	t = False
+
 	for srow in range(6,9):
 		for scol in range(6, 9):
 			if srow == j and scol == i:
@@ -151,7 +153,7 @@ def main() :
 		ensure81(v1)
 		while(k < 81):
 			r = []
-			for l in range(9):
+			for l in range(0, 9):
 				r.append(v[l])
 				l = l + 1
 			ls.append(r)
