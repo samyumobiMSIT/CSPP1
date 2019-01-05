@@ -1,18 +1,29 @@
 def sum_list(l):
-    sum=0
+    s=0
     for i in l:
         if isinstance(i,list):
-            sum = sum + sum_list(i)
+          s += sum_list(i)
         else:
-            sum = sum + i
-    print(sum)
+            try:
+                s+=i
+            except TypeError:
+              continue
+    return s
+
+def count_list(l):
+    if l is []:
+        return l
+
+
+
 
 def main():
-    sum_list(lst)
+    lst = eval(input())
+    print(sum_list(lst))
+    print(count_list(lst))
 
 
 if __name__ == '__main__':
-
-    lst = input()
     main()
+
 
