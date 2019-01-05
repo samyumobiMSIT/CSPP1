@@ -1,0 +1,19 @@
+************* Module Test
+Test.py:2:7: C0326: Exactly one space required around assignment
+    sum=0
+       ^ (bad-whitespace)
+Test.py:4:23: C0326: Exactly one space required after comma
+        if isinstance(i,list):
+                       ^ (bad-whitespace)
+Test.py:18:0: C0305: Trailing newlines (trailing-newlines)
+Test.py:1:0: C0103: Module name "Test" doesn't conform to snake_case naming style (invalid-name)
+Test.py:1:0: C0111: Missing module docstring (missing-docstring)
+Test.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+Test.py:1:0: C0111: Missing function docstring (missing-docstring)
+Test.py:2:4: W0622: Redefining built-in 'sum' (redefined-builtin)
+Test.py:10:0: C0111: Missing function docstring (missing-docstring)
+Test.py:16:4: C0103: Constant name "lst" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 1.67/10 (previous run: 3.80/10, -2.13)
+

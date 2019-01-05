@@ -1,0 +1,96 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+76.8
+6
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+5.5
+1
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+1
+6
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+5
+4
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+0
+8
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+5654134.9
+10
+
+Your Output: 
+Traceback (most recent call last):
+  File "Test.py", line 17, in <module>
+    main()
+  File "Test.py", line 11, in main
+    sum_list(lst)
+  File "Test.py", line 7, in sum_list
+    sum = sum + i
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+----------------------------------------
+
