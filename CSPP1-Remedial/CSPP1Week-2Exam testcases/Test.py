@@ -11,11 +11,12 @@ def sum_list(l):
     return s
 
 def levels(l):
-    if len(l)=='None':
-        print()
+    s = " "
     c=0
-    if l == '[':
-        c+=1
+    k = ''.join(str(p) for p in l)
+    for j in range(len(l)):
+        if l == '[':
+            c+=1
     return c
 
 

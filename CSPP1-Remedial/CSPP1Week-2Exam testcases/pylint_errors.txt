@@ -10,16 +10,13 @@ Test.py:8:17: C0326: Exactly one space required around assignment
                 s+=i
                  ^^ (bad-whitespace)
 Test.py:10:0: W0311: Bad indentation. Found 14 spaces, expected 16 (bad-indentation)
-Test.py:14:13: C0326: Exactly one space required around comparison
-    if len(l)=='None':
-             ^^ (bad-whitespace)
-Test.py:16:5: C0326: Exactly one space required around assignment
+Test.py:15:5: C0326: Exactly one space required around assignment
     c=0
      ^ (bad-whitespace)
-Test.py:18:9: C0326: Exactly one space required around assignment
-        c+=1
-         ^^ (bad-whitespace)
-Test.py:35:0: C0305: Trailing newlines (trailing-newlines)
+Test.py:19:13: C0326: Exactly one space required around assignment
+            c+=1
+             ^^ (bad-whitespace)
+Test.py:36:0: C0305: Trailing newlines (trailing-newlines)
 Test.py:1:0: C0103: Module name "Test" doesn't conform to snake_case naming style (invalid-name)
 Test.py:1:0: C0111: Missing module docstring (missing-docstring)
 Test.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
@@ -29,11 +26,15 @@ Test.py:5:10: C0103: Variable name "s" doesn't conform to snake_case naming styl
 Test.py:8:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Test.py:13:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 Test.py:13:0: C0111: Missing function docstring (missing-docstring)
-Test.py:16:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Test.py:18:8: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Test.py:26:0: C0111: Missing function docstring (missing-docstring)
-Test.py:27:10: W0123: Use of eval (eval-used)
+Test.py:14:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+Test.py:15:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Test.py:19:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Test.py:14:4: W0612: Unused variable 's' (unused-variable)
+Test.py:16:4: W0612: Unused variable 'k' (unused-variable)
+Test.py:17:8: W0612: Unused variable 'j' (unused-variable)
+Test.py:27:0: C0111: Missing function docstring (missing-docstring)
+Test.py:28:10: W0123: Use of eval (eval-used)
 
-------------------------------------------------------------------
-Your code has been rated at 0.43/10 (previous run: 0.00/10, +0.43)
+-------------------------------------------------------------------
+Your code has been rated at -0.42/10 (previous run: 0.43/10, -0.85)
 
