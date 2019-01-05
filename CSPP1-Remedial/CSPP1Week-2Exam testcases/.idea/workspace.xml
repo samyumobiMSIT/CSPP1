@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../CSPP-1Week1Exam/git_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CSPP-1Week1Exam/git_output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSPP-1Week1Exam/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CSPP-1Week1Exam/practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSPP-1Week1Exam/result/score.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSPP-1Week1Exam/result/score.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git_output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/score.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/score.json" afterDir="false" />
     </list>
@@ -41,12 +40,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="237" />
-          <entry key="py" value="781" />
+          <entry key="py" value="783" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1018" />
+          <entry key="Python" value="1020" />
         </counts>
       </usages-collector>
     </session>
@@ -56,13 +55,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="291">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding>
-                <marker date="1546671084785" expanded="true" signature="232:375" ph="..." />
-                <marker date="1546671084785" expanded="true" signature="374:375" ph="..." />
-                <marker date="1546671084785" expanded="true" signature="386:391" ph="..." />
-                <marker date="1546671084785" expanded="true" signature="386:461" ph="..." />
+                <marker date="1546671254503" expanded="true" signature="232:376" ph="..." />
+                <marker date="1546671254503" expanded="true" signature="375:376" ph="..." />
+                <marker date="1546671254503" expanded="true" signature="387:392" ph="..." />
+                <marker date="1546671254503" expanded="true" signature="387:462" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases_output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-604">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -221,10 +220,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29910713" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.61001515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,20 +295,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases_output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-604">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="291">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <marker date="1546671084785" expanded="true" signature="232:375" ph="..." />
-            <marker date="1546671084785" expanded="true" signature="374:375" ph="..." />
-            <marker date="1546671084785" expanded="true" signature="386:391" ph="..." />
-            <marker date="1546671084785" expanded="true" signature="386:461" ph="..." />
+            <marker date="1546671254503" expanded="true" signature="232:376" ph="..." />
+            <marker date="1546671254503" expanded="true" signature="375:376" ph="..." />
+            <marker date="1546671254503" expanded="true" signature="387:392" ph="..." />
+            <marker date="1546671254503" expanded="true" signature="387:462" ph="..." />
           </folding>
         </state>
       </provider>

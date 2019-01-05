@@ -14,7 +14,7 @@ def levels(l):
     s = " "
     c=0
     s = ''.join(str(p) for p in l)
-    for j in range(len(l)):
+    for j in range(len(s)):
         if s[j] == '[':
             c+=1
     return c
