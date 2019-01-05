@@ -5,14 +5,7 @@ Expected Output:
 
 Your Output: 
 76.8
-Traceback (most recent call last):
-  File "Test.py", line 34, in <module>
-    main()
-  File "Test.py", line 30, in main
-    print(levels(lst))
-  File "Test.py", line 18, in levels
-    if s[j] == '[':
-IndexError: string index out of range
+1
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,14 +15,7 @@ Expected Output:
 
 Your Output: 
 5.5
-Traceback (most recent call last):
-  File "Test.py", line 34, in <module>
-    main()
-  File "Test.py", line 30, in main
-    print(levels(lst))
-  File "Test.py", line 18, in levels
-    if s[j] == '[':
-IndexError: string index out of range
+0
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -39,7 +25,7 @@ Expected Output:
 
 Your Output: 
 1
-0
+1
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -49,14 +35,7 @@ Expected Output:
 
 Your Output: 
 5
-Traceback (most recent call last):
-  File "Test.py", line 34, in <module>
-    main()
-  File "Test.py", line 30, in main
-    print(levels(lst))
-  File "Test.py", line 18, in levels
-    if s[j] == '[':
-IndexError: string index out of range
+1
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -66,7 +45,7 @@ Expected Output:
 
 Your Output: 
 0
-0
+1
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -76,13 +55,6 @@ Expected Output:
 
 Your Output: 
 5654134.9
-Traceback (most recent call last):
-  File "Test.py", line 34, in <module>
-    main()
-  File "Test.py", line 30, in main
-    print(levels(lst))
-  File "Test.py", line 18, in levels
-    if s[j] == '[':
-IndexError: string index out of range
+1
 ----------------------------------------
 

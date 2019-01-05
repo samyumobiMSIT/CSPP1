@@ -28,11 +28,11 @@ Test.py:13:0: C0103: Argument name "l" doesn't conform to snake_case naming styl
 Test.py:13:0: C0111: Missing function docstring (missing-docstring)
 Test.py:14:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Test.py:15:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Test.py:16:4: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Test.py:19:12: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Test.py:16:4: W0612: Unused variable 'k' (unused-variable)
 Test.py:27:0: C0111: Missing function docstring (missing-docstring)
 Test.py:28:10: W0123: Use of eval (eval-used)
 
--------------------------------------------------------------------
-Your code has been rated at 0.42/10 (previous run: -0.42/10, +0.83)
+------------------------------------------------------------------
+Your code has been rated at 0.42/10 (previous run: 0.42/10, +0.00)
 

@@ -13,7 +13,7 @@ def sum_list(l):
 def levels(l):
     s = " "
     c=0
-    k = ''.join(str(p) for p in l)
+    s = ''.join(str(p) for p in l)
     for j in range(len(l)):
         if s[j] == '[':
             c+=1
