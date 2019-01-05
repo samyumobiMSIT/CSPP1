@@ -5,6 +5,7 @@ Expected Output:
 
 Your Output: 
 76.8
+0
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -14,6 +15,7 @@ Expected Output:
 
 Your Output: 
 5.5
+0
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,6 +25,7 @@ Expected Output:
 
 Your Output: 
 1
+0
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -32,6 +35,7 @@ Expected Output:
 
 Your Output: 
 5
+0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -40,6 +44,7 @@ Expected Output:
 8
 
 Your Output: 
+0
 0
 ----------------------------------------
 
@@ -50,5 +55,6 @@ Expected Output:
 
 Your Output: 
 5654134.9
+0
 ----------------------------------------
 

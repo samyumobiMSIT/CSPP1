@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/../CSPP-1Week1Exam/result/score.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSPP-1Week1Exam/result/score.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/score.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/score.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,24 +28,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="2" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="237" />
-          <entry key="py" value="720" />
+          <entry key="py" value="739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="957" />
+          <entry key="Python" value="976" />
         </counts>
       </usages-collector>
     </session>
@@ -56,14 +55,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="325">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding>
-                <marker date="1546670464193" expanded="true" signature="232:301" ph="..." />
-                <marker date="1546670464193" expanded="true" signature="300:301" ph="..." />
-                <marker date="1546670464193" expanded="true" signature="312:317" ph="..." />
-                <marker date="1546670464193" expanded="true" signature="312:387" ph="..." />
+                <marker date="1546670801577" expanded="true" signature="232:329" ph="..." />
+                <marker date="1546670801577" expanded="true" signature="328:329" ph="..." />
+                <marker date="1546670801577" expanded="true" signature="340:345" ph="..." />
+                <marker date="1546670801577" expanded="true" signature="340:415" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases_output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -213,20 +221,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29910713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29910713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -239,13 +246,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testcases/exp.py" />
-    <entry file="file://$PROJECT_DIR$/testcases_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/input003.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -272,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/input001.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/output001.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -292,15 +285,29 @@
     <entry file="file://$PROJECT_DIR$/testcases/output002.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/input001.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="325">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
-            <marker date="1546670464193" expanded="true" signature="232:301" ph="..." />
-            <marker date="1546670464193" expanded="true" signature="300:301" ph="..." />
-            <marker date="1546670464193" expanded="true" signature="312:317" ph="..." />
-            <marker date="1546670464193" expanded="true" signature="312:387" ph="..." />
+            <marker date="1546670801577" expanded="true" signature="232:329" ph="..." />
+            <marker date="1546670801577" expanded="true" signature="328:329" ph="..." />
+            <marker date="1546670801577" expanded="true" signature="340:345" ph="..." />
+            <marker date="1546670801577" expanded="true" signature="340:415" ph="..." />
           </folding>
         </state>
       </provider>

@@ -26,7 +26,7 @@ def levels(l):
 def main():
     lst = eval(input())
     print(sum_list(lst))
-    #print(levels(lst))
+    print(levels(lst))
 
 
 if __name__ == '__main__':
