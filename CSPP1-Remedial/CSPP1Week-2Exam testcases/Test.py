@@ -10,9 +10,15 @@ def sum_list(l):
               continue
     return s
 
-def count_list(l):
-    if l is []:
-        return l
+def levels(l):
+    if len(l)=='None':
+        print()
+    c=0
+    if l == '[':
+        c+=1
+    return c
+
+
 
 
 
@@ -20,7 +26,7 @@ def count_list(l):
 def main():
     lst = eval(input())
     print(sum_list(lst))
-    print(count_list(lst))
+    #print(levels(lst))
 
 
 if __name__ == '__main__':
