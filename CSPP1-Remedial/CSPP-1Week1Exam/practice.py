@@ -1,17 +1,22 @@
 def img(f):
     i = f.split('<img')
-    tag = "img src = "
-    end_tag = " data-"
-    c=0
+    e_t = "\""
+    i=i[1:]
+    c = 0
+    t = "src = \""
     s = []
     for item_1 in i:
-        if "img src=\ " '' in item_1 and " data- " in item_1:
-            s +=item_1
-            index = item_1.index(tag)
-            item_1=item_1[index+len(tag):]
-            end = item_1.index(end_tag)
+        if "src=\"" in item_1:
+            #s +=item_1
+            index = item_1.index(t)
+            item_1=item_1[index+len(t):]
+            end = item_1.index(e_t)
             c +=1
-
+            #print all the URLs of the image
+            print(item_1[:end])
+            s.append(item_1)
+    print(c)
+#Display the count of images present on the webpage
 
 def bg(f):
 
@@ -52,23 +57,38 @@ def bg(f):
 
 
 def ls(f):
-    pass
+    l = f.split("</li>")
+    tag = "li"
+    midtag = "<"
+    end = ">"
+    c = 0
+    s = []
+    for item in l:
+        if "<li>" in item:
+            # s +=item_1
+            index = item.index(tag)
+            item_1 = item[index + len(tag):]
+            end = item.index(end)
+            c += 1
+            # print all the URLs of the image
+            print(str(item[:end]))
+            s.append(item)
+        print(c)
+
 
 
 
 def main():
     f = open("webpage5.html",encoding="utf8").read()
-    print(f.encode("utf-8"))
+    #print(f.encode("utf-8"))
     #inputs option for either image background or list
     o = input()
-    if o == 'img':
+    if o == 'image':
         img(f)
-    elif o == 'bg':
+    elif o == 'background':
         bg(f)
-    elif o == 'ls':
+    elif o == 'list':
         ls(f)
-
-
 
 
 # Do the default
