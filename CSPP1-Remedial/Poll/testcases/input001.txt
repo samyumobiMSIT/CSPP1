@@ -1,0 +1,29 @@
+3
+Who should be the next Prime Minister?
+RahulGandhi
+NarendraModi
+ManmohanSingh
+None
+Who will be the next cm for Telangana?
+KCR
+KTR
+PK
+None
+Who will be the next cm for AP?
+CBN
+PK
+Jagan
+None
+3
+Rehana
+1 NarendraModi
+2 KCR
+3 CBN
+Murthy
+1 NarendraModi
+2 KCR
+3 Jagan
+Rajesh
+1 RahulGandhi
+2 KTR
+3 CBN

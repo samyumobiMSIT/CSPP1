@@ -1,0 +1,3 @@
+Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
+Highest number of votes for question : Who will be the next cm for Telangana? : KTR
+Highest number of votes for question : Who will be the next cm for AP? : CBN

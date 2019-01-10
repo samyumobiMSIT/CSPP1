@@ -1,0 +1,13 @@
+1
+Who should be the next Prime Minister?
+RahulGandhi
+NarendraModi
+ManmohanSingh
+None
+3
+Rehana
+1 RahulGandhi
+Rajesh
+1 NarendraModi
+Radhika
+1 NarendraModi
