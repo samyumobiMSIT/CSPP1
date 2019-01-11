@@ -1,43 +1,32 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-Traceback (most recent call last):
-  File "main.py", line 74, in <module>
-    main()
-  File "main.py", line 64, in main
-    p = Participant(name, q-1,lines[1])
-TypeError: Participant() takes no arguments
+Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Highest number of votes for question : Who will be the next cm for Telangana? : KCR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Traceback (most recent call last):
-  File "main.py", line 74, in <module>
-    main()
-  File "main.py", line 64, in main
-    p = Participant(name, q-1,lines[1])
-TypeError: Participant() takes no arguments
+Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
+Highest number of votes for question : Who will be the next cm for Telangana? : KCR
+Highest number of votes for question : Who will be the next cm for AP? : CBN
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
 Highest number of votes for question : Who will be the next cm for Telangana? : KTR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Traceback (most recent call last):
-  File "main.py", line 74, in <module>
-    main()
-  File "main.py", line 64, in main
-    p = Participant(name, q-1,lines[1])
-TypeError: Participant() takes no arguments
+Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
+Highest number of votes for question : Who will be the next cm for Telangana? : KTR
+Highest number of votes for question : Who will be the next cm for AP? : CBN
 ----------------------------------------
 

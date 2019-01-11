@@ -11,29 +11,28 @@ main.py:27:27: C0326: Exactly one space required after comma
 main.py:28:33: C0326: Exactly one space required after assignment
         self.optionVotes[option] +=1
                                  ^^ (bad-whitespace)
-main.py:30:20: C0326: Exactly one space required after comma
-    def getText(self,question):
-                    ^ (bad-whitespace)
-main.py:41:0: W0311: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
-main.py:55:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
-main.py:56:24: C0326: Exactly one space required after comma
+main.py:42:21: C0326: Exactly one space required after comma
+    def __init__(self,name, question_number, option):
+                     ^ (bad-whitespace)
+main.py:48:0: W0311: Bad indentation. Found 7 spaces, expected 8 (bad-indentation)
+main.py:57:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
+main.py:58:24: C0326: Exactly one space required after comma
         a = Question(q1s,options)
                         ^ (bad-whitespace)
-main.py:62:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
-main.py:63:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
 main.py:64:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
-main.py:64:35: C0326: Exactly one space required after comma
-          p = Participant(name, q-1,lines[1])
-                                   ^ (bad-whitespace)
 main.py:65:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
 main.py:66:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
-main.py:70:0: C0330: Wrong continued indentation (remove 13 spaces).
+main.py:67:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
+main.py:69:0: W0311: Bad indentation. Found 10 spaces, expected 12 (bad-indentation)
+main.py:72:0: C0330: Wrong continued indentation (remove 13 spaces).
                            + " : " + quiz.getQuestion(i).commonSelectedOption())
               |            ^ (bad-continuation)
 main.py:1:0: C0111: Missing module docstring (missing-docstring)
 main.py:3:0: C0111: Missing class docstring (missing-docstring)
 main.py:9:4: C0103: Method name "addQuestion" doesn't conform to snake_case naming style (invalid-name)
+main.py:9:4: C0103: Argument name "Question" doesn't conform to snake_case naming style (invalid-name)
 main.py:9:4: C0111: Missing method docstring (missing-docstring)
+main.py:9:26: W0621: Redefining name 'Question' from outer scope (line 17) (redefined-outer-name)
 main.py:12:4: C0103: Method name "getQuestion" doesn't conform to snake_case naming style (invalid-name)
 main.py:12:4: C0111: Missing method docstring (missing-docstring)
 main.py:22:8: C0103: Attribute name "optionVotes" doesn't conform to snake_case naming style (invalid-name)
@@ -43,25 +42,22 @@ main.py:27:4: C0103: Method name "setOptionVotes" doesn't conform to snake_case 
 main.py:27:4: C0111: Missing method docstring (missing-docstring)
 main.py:30:4: C0103: Method name "getText" doesn't conform to snake_case naming style (invalid-name)
 main.py:30:4: C0111: Missing method docstring (missing-docstring)
-main.py:30:21: W0613: Unused argument 'question' (unused-argument)
 main.py:33:4: C0103: Method name "commonSelectedOption" doesn't conform to snake_case naming style (invalid-name)
 main.py:33:4: C0111: Missing method docstring (missing-docstring)
 main.py:35:12: C0103: Variable name "optionVote" doesn't conform to snake_case naming style (invalid-name)
 main.py:33:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 main.py:40:0: C0111: Missing class docstring (missing-docstring)
-main.py:43:8: W0201: Attribute 'name' defined outside __init__ (attribute-defined-outside-init)
-main.py:44:8: W0201: Attribute 'question_number' defined outside __init__ (attribute-defined-outside-init)
-main.py:45:8: W0201: Attribute 'option' defined outside __init__ (attribute-defined-outside-init)
-main.py:40:0: R0903: Too few public methods (0/2) (too-few-public-methods)
-main.py:48:0: C0111: Missing function docstring (missing-docstring)
-main.py:50:4: C0103: Variable name "q1" doesn't conform to snake_case naming style (invalid-name)
-main.py:54:8: W0621: Redefining name 'i' from outer scope (line 51) (redefined-outer-name)
-main.py:56:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
-main.py:61:8: W0621: Redefining name 'i' from outer scope (line 59) (redefined-outer-name)
-main.py:63:10: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-main.py:64:10: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
-main.py:64:10: W0612: Unused variable 'p' (unused-variable)
+main.py:47:4: C0111: Missing method docstring (missing-docstring)
+main.py:40:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+main.py:50:0: C0111: Missing function docstring (missing-docstring)
+main.py:52:4: C0103: Variable name "q1" doesn't conform to snake_case naming style (invalid-name)
+main.py:56:8: W0621: Redefining name 'i' from outer scope (line 53) (redefined-outer-name)
+main.py:58:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+main.py:63:8: W0621: Redefining name 'i' from outer scope (line 61) (redefined-outer-name)
+main.py:65:10: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+main.py:66:10: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+main.py:66:10: W0612: Unused variable 'p' (unused-variable)
 
------------------------------------
-Your code has been rated at 1.48/10
+------------------------------------------------------------------
+Your code has been rated at 2.14/10 (previous run: 1.48/10, +0.66)
 

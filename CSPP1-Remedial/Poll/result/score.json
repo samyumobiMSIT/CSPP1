@@ -1,0 +1,1 @@
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "cspp2_m10_a1_1", "user_id": "samyumobiMSIT", "score": {"sample": {"0": {"execution_time": 0.12114763259887695, "passed": false}, "1": {"execution_time": 0.14035964012145996, "passed": false}, "2": {"execution_time": 0.11713910102844238, "passed": false}}}, "pylint_score": "0/0"}
