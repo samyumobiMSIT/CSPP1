@@ -27,15 +27,13 @@ Quiz.py:50:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:4:4: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:14:29: E1136: Value 'list' is unsubscriptable (unsubscriptable-object)
 Quiz.py:14:44: E1136: Value 'list' is unsubscriptable (unsubscriptable-object)
-Quiz.py:4:4: W0612: Unused variable 'a' (unused-variable)
 Quiz.py:18:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:28:7: W0120: Else clause on loop without a break statement (useless-else-on-loop)
 Quiz.py:24:8: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:23:11: W0612: Unused variable 'i' (unused-variable)
 
-------------------------------------
-Your code has been rated at -4.29/10
+--------------------------------------------------------------------
+Your code has been rated at -4.07/10 (previous run: -4.29/10, +0.21)
 

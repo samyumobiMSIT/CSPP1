@@ -4,14 +4,7 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 50, in <module>
-    main()
-  File "Quiz.py", line 47, in main
-    declarequiz(list1,list2)
-  File "Quiz.py", line 4, in declarequiz
-    a = input().split("|")
-EOFError: EOF when reading a line
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,14 +16,7 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 50, in <module>
-    main()
-  File "Quiz.py", line 47, in main
-    declarequiz(list1,list2)
-  File "Quiz.py", line 4, in declarequiz
-    a = input().split("|")
-EOFError: EOF when reading a line
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -38,14 +24,7 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 50, in <module>
-    main()
-  File "Quiz.py", line 47, in main
-    declarequiz(list1,list2)
-  File "Quiz.py", line 4, in declarequiz
-    a = input().split("|")
-EOFError: EOF when reading a line
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -79,13 +58,6 @@ Expected Output:
 12345: 100.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 50, in <module>
-    main()
-  File "Quiz.py", line 47, in main
-    declarequiz(list1,list2)
-  File "Quiz.py", line 4, in declarequiz
-    a = input().split("|")
-EOFError: EOF when reading a line
+
 ----------------------------------------
 

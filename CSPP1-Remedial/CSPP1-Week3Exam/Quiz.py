@@ -1,7 +1,7 @@
 def declarequiz(list1,list2):
     list2 = {}
     total = 0
-    a = input().split("|")
+    #a = input().split("|")
     # quesno = input(a[1])
     # response = input(a[2])
     # answer = input(a[3])
