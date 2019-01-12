@@ -1,0 +1,91 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+1234: 45.0%
+1235: 100.0%
+
+Your Output: 
+Traceback (most recent call last):
+  File "Quiz.py", line 50, in <module>
+    main()
+  File "Quiz.py", line 47, in main
+    declarequiz(list1,list2)
+  File "Quiz.py", line 4, in declarequiz
+    a = input().split("|")
+EOFError: EOF when reading a line
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+1233: 100.0%
+1234: 0.0%
+1235: 0.0%
+1236: 0.0%
+1239: 0.0%
+
+Your Output: 
+Traceback (most recent call last):
+  File "Quiz.py", line 50, in <module>
+    main()
+  File "Quiz.py", line 47, in main
+    declarequiz(list1,list2)
+  File "Quiz.py", line 4, in declarequiz
+    a = input().split("|")
+EOFError: EOF when reading a line
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+Invalid Points
+
+Your Output: 
+Traceback (most recent call last):
+  File "Quiz.py", line 50, in <module>
+    main()
+  File "Quiz.py", line 47, in main
+    declarequiz(list1,list2)
+  File "Quiz.py", line 4, in declarequiz
+    a = input().split("|")
+EOFError: EOF when reading a line
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+1233: 0.0%
+1234: 60.0%
+1235: 0.0%
+1236: 33.0%
+1237: 0.0%
+1238: 67.0%
+1239: 0.0%
+12310: 0.0%
+12311: 0.0%
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+12342: 100.0%
+12345: 57.0%
+12349: 50.0%
+
+Your Output: 
+
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+12345: 100.0%
+
+Your Output: 
+Traceback (most recent call last):
+  File "Quiz.py", line 50, in <module>
+    main()
+  File "Quiz.py", line 47, in main
+    declarequiz(list1,list2)
+  File "Quiz.py", line 4, in declarequiz
+    a = input().split("|")
+EOFError: EOF when reading a line
+----------------------------------------
+
