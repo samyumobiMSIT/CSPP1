@@ -7,8 +7,8 @@ def declarequiz(list1,list2):
     # response = input(a[2])
     # answer = input(a[3])
     # points = int((input(a[4])))
-    for i in list1:
-        for j in list2:
+    for i in sorted(list1):
+        for j in sorted(list2):
             #Check whether the response is equal to the answer or not.
             if i == j:
                 #Total score = ( No. of points student got/Total number of points ) * 100
