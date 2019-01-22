@@ -12,7 +12,7 @@ def declarequiz(list1,list2):
             #Check whether the response is equal to the answer or not.
             if i == j:
                 #Total score = ( No. of points student got/Total number of points ) * 100
-                total = int(list1[i]/list2[j]*100)
+                total = int((list1[i]/list2[j])*100)
                 #print(total)
                 if total < 0:
                     total = 0
