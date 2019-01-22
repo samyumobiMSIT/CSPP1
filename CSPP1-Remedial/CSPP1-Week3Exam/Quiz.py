@@ -16,7 +16,7 @@ def declarequiz(list1,list2):
                 #print(total)
                 if total < 0:
                     total = 0
-                print(i + ":" + str(float(total)) + "%")
+                print(i + ": " + str(float(total)) + "%")
 
 def main():
    noflines = int(input())
