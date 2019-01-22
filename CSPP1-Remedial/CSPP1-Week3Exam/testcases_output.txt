@@ -24,12 +24,12 @@ Your Output:
 1239:0.0%
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Invalid Points
 
 Your Output: 
-Invalid points
+Invalid Points
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########

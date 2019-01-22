@@ -38,10 +38,9 @@ def main():
        declarequiz(list1,list2)
 
    except ValueError:
-       print("Invalid points")
+       print("Invalid Points")
 
-   # except ValueError:
-   #     print("Invalid Points")
+
 
 
 

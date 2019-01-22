@@ -22,7 +22,7 @@ Quiz.py:38:24: C0326: Exactly one space required after comma
                         ^ (bad-whitespace)
 Quiz.py:40:0: W0311: Bad indentation. Found 3 spaces, expected 4 (bad-indentation)
 Quiz.py:41:0: W0311: Bad indentation. Found 7 spaces, expected 8 (bad-indentation)
-Quiz.py:50:0: C0304: Final newline missing (missing-final-newline)
+Quiz.py:49:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -30,6 +30,6 @@ Quiz.py:21:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:27:11: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:26:11: W0612: Unused variable 'i' (unused-variable)
 
--------------------------------------------------------------------
-Your code has been rated at 0.71/10 (previous run: -2.76/10, +3.47)
+------------------------------------------------------------------
+Your code has been rated at 0.71/10 (previous run: 0.71/10, +0.00)
 
