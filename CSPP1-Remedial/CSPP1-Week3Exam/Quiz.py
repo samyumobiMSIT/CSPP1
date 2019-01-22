@@ -1,6 +1,6 @@
 def declarequiz(list1,list2):
     #store values in list of list
-    list2 = {}
+    #list2 = {}
     total = 0
     #a = input().split("|")
     # quesno = input(a[1])
@@ -12,7 +12,7 @@ def declarequiz(list1,list2):
             #Check whether the response is equal to the answer or not.
             if i == j:
                 #Total score = ( No. of points student got/Total number of points ) * 100
-                total = (int(list[i]) / int(list[j])) * 100
+                total = int(list1[i]/list2[j]*100)
                 #print(total)
                 if total < 0:
                     total = 0
@@ -31,16 +31,18 @@ def main():
            else:
                list2[a[0]] += int(a[4])
            if a[2] == a[3]:
-                list1[a[0]]+= int(a[4])
+                list1[a[0]] += int(a[4])
            else:
-               list1[a[0]]-= int(a[4])
-       declarequiz(list1, list2)
+               list1[a[0]] -= int(a[4])
+
+       declarequiz(list1,list2)
 
    except ValueError:
        print("Invalid points")
 
    # except ValueError:
    #     print("Invalid Points")
+
 
 
 
