@@ -1,4 +1,5 @@
 def declarequiz(list1,list2):
+    #store values in list of list
     list2 = {}
     total = 0
     #a = input().split("|")
@@ -13,7 +14,9 @@ def declarequiz(list1,list2):
                 #Total score = ( No. of points student got/Total number of points ) * 100
                 total = (int(list[i]) / int(list[j])) * 100
                 #print(total)
-                print(i + ":" + str(float(total)+"%"))
+                if total < 0:
+                    total = 0
+                print(i + ":" + str(float(total)) + "%")
 
 def main():
    noflines = int(input())
@@ -21,30 +24,25 @@ def main():
    list2 = {}
    try:
        for i in range(noflines):
-        a = input().split("|")
-        if a[0] not in list1:
-           list1[a[0]] = 0
-           list2[a[0]] = int(a[4])
-       else:
-           list2[a[0]] += int(a[4])
+           a = input().split("|")
+           if a[0] not in list1:
+               list1[a[0]] = 0
+               list2[a[0]] = int(a[4])
+           else:
+               list2[a[0]] += int(a[4])
+           if a[2] == a[3]:
+                list1[a[0]]+= int(a[4])
+           else:
+               list1[a[0]]-= int(a[4])
+       declarequiz(list1, list2)
 
-       # quesno = input(a[1])
-       # response = input(a[2])
-       # answer = input(a[3])
-       # points = int((input(a[4])))
-   #print(list1)
-
-       #response == answer then points count
-       if a[2] == a[3]:
-           list1[a[0]] += int(a[4])
-       else:
-           list1[a[0]] -= int(a[4])
-   # deduct points if not equal
-   #invalid points
    except ValueError:
-       print("Error")
+       print("Invalid points")
 
-   declarequiz(list1,list2)
+   # except ValueError:
+   #     print("Invalid Points")
+
+
 
 if __name__ == '__main__':
     main()

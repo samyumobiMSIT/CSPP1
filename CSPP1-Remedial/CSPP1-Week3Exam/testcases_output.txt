@@ -24,7 +24,7 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-
+Invalid points
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
